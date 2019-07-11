@@ -11,13 +11,13 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/plurid/apps-functions"
+        "url": "https://github.com/plurid/apps-utilities-functions"
     },
     "bugs": {
         "email": "feedback@plurid.com",
-        "url": "https://github.com/plurid/apps-functions/issues"
+        "url": "https://github.com/plurid/apps-utilities-functions/issues"
     },
-    "homepage": "https://github.com/plurid/apps-functions",
+    "homepage": "https://github.com/plurid/apps-utilities-functions",
     "publishConfig": {
         "access": "public"
     },
