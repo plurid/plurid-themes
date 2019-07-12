@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 
-export const StyledSwitch = styled.label`
+export const StyledSwitch: any = styled.label`
     position: relative;
     display: inline-block;
     width: 60px;
@@ -40,7 +40,13 @@ export const StyledSwitch = styled.label`
 
     input + .slider {
         /* background-color: #2196F3; */
-        background-color: hsl(247, 19%, 29%);
+        background-color: ${(props: any) => {
+            if (props.backgroundColor) {
+                return props.backgroundColor;
+            }
+
+            return 'hsl(247, 19%, 29%)';
+        }};
         /* background-color: hsla(220, 20%, 20%, 0.5); */
         box-shadow: inset 0 2px 3px black;
     }
