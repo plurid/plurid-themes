@@ -33,6 +33,9 @@
     },
     "scripts": {
         "prepublishOnly": "yarn build.rollup",
+        "github.copy": "cp -r src github/ && cp {.editorconfig,.gitignore,package.json,README.md,rollup.config.js,tsconfig.json,tsconfig.test.json,tslint.json,yarn.lock} github/",
+        "github.clean": "rm -rf github/* && rm {github/.editorconfig,github/.gitignore}",
+        "github": "yarn github.clean && yarn github.copy",
         "clean": "rm -rf ./dist",
         "test": "cross-env CI=1 react-scripts-ts test --env=jsdom",
         "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
