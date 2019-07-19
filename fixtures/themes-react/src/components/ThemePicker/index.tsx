@@ -18,37 +18,47 @@ const ThemePicker: React.FC<any> = (props) => {
     return (
         <div
             style={{
-                textAlign: 'center',
-                width: '300px',
-                margin: '50px auto',
-                userSelect: 'none',
+                height: '100px',
+                display: 'flex',
+                alignItems: 'center',
             }}
         >
-            {theme} theme is active
-
-            <ul
+            <div
                 style={{
-                    listStyle: 'none',
-                    padding: 0,
-                    margin: '20px 0',
-                    display: 'flex',
+                    textAlign: 'center',
+                    width: '300px',
+                    margin: '0px auto',
+                    userSelect: 'none',
                 }}
             >
-                {themeNames.map((themeName: any) => {
-                    return (
-                        <li
-                            style={{
-                                margin: '10px',
-                                cursor: 'pointer',
-                            }}
-                            key={themeName}
-                            onClick={() => setTheme((themes as any)[themeName])}
-                        >
-                            {themeName}
-                        </li>
-                    )
-                })}
-            </ul>
+                <ul
+                    style={{
+                        listStyle: 'none',
+                        padding: 0,
+                        margin: '0px auto',
+                        display: 'flex',
+                        // width: '100px',
+                        // overflow: 'auto',
+                    }}
+                >
+                    {themeNames.map((themeName: any) => {
+                        return (
+                            <li
+                                style={{
+                                    margin: '10px',
+                                    cursor: 'pointer',
+                                    padding: '5px 0',
+                                    borderBottom: themeName === theme ? '2px solid black' : '',
+                                }}
+                                key={themeName}
+                                onClick={() => setTheme((themes as any)[themeName])}
+                            >
+                                {themeName}
+                            </li>
+                        )
+                    })}
+                </ul>
+            </div>
         </div>
     );
 }
