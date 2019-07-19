@@ -1,4 +1,6 @@
 const deview = {
+    name: 'deview',
+    type: 'dark',
     backgroundColorPrimary: 'hsl(327, 94%, 30%)',
     backgroundColorPrimaryAlpha: 'hsla(327, 94%, 30%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(327, 94%, 30%)',
