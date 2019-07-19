@@ -4,6 +4,7 @@ import _dawn from './themes/base/dawn';
 import _light from './themes/base/light';
 
 import _depict from './themes/product/depict';
+import _deview from './themes/product/deview';
 
 
 
@@ -13,6 +14,7 @@ export const dawn = _dawn;
 export const light = _light;
 
 export const depict = _depict;
+export const deview = _deview;
 
 
 const themes = {
@@ -22,6 +24,7 @@ const themes = {
     light: _light,
 
     depict: _depict,
+    deview: _deview,
 }
 
 export default themes;

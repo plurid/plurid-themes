@@ -1,9 +1,15 @@
 const depict = {
-    backgroundColor: 'hsl(327, 94%, 30%)',
+    backgroundColorPrimary: 'hsl(327, 94%, 30%)',
+    backgroundColorPrimaryAlpha: 'hsla(327, 94%, 30%, 0.4)',
+    backgroundColorPrimaryInverted: 'hsl(327, 94%, 30%)',
     backgroundColorSecondary: 'hsl(327, 94%, 49%)',
-    backgroundColorHover: 'hsla(240, 13%, 16%, 0.3)',
-    color: 'hsl(327, 7%, 97%)',
+    backgroundColorSecondaryAlpha: 'hsla(327, 94%, 49%, 0.4)',
+    backgroundColorTertiary: 'hsl(327, 94%, 49%)',
+    backgroundColorTertiaryAlpha: 'hsla(240, 13%, 16%, 0.3)',
+    colorPrimary: 'hsl(327, 7%, 97%)',
+    colorPrimaryInverted: 'hsl(327, 7%, 77%)',
     colorSecondary: 'hsl(327, 7%, 77%)',
+    shadow: 'hsla(327, 94%, 10%, 0.7)',
 };
 
 
