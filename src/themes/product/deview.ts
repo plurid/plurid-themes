@@ -1,4 +1,4 @@
-const light = {
+const deview = {
     backgroundColorPrimary: 'hsl(327, 94%, 30%)',
     backgroundColorPrimaryAlpha: 'hsla(327, 94%, 30%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(327, 94%, 30%)',
@@ -10,13 +10,7 @@ const light = {
     colorPrimaryInverted: 'hsl(327, 7%, 77%)',
     colorSecondary: 'hsl(327, 7%, 77%)',
     shadow: 'hsla(327, 94%, 10%, 0.7)',
-
-    // backgroundColor: 'hsl(220, 2%, 97%)',
-    // backgroundColorSecondary: 'hsl(220, 2%, 77%)',
-    // backgroundColorHover: 'hsla(220, 2%, 55%, 0.3)',
-    // color: 'hsl(220, 2%, 10%)',
-    // colorSecondary: 'hsl(220, 2%, 35%)',
 };
 
 
-export default light;
+export default deview;
