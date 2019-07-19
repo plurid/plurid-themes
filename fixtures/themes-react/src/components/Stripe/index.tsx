@@ -20,7 +20,15 @@ const Stripe: React.FC<any> = (props) => {
                 color,
             }}
         >
-            {text}
+            <p>
+                {text}
+            </p>
+            <p>
+                background: {backgroundColor}
+            </p>
+            <p>
+                color: {color}
+            </p>
         </div>
     );
 }
