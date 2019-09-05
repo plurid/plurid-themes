@@ -1,13 +1,12 @@
 import {
-    ThemeNames,
-    ThemeTypes,
-} from '../enumerations';
-
+    THEME_NAMES,
+    THEME_TYPES,
+} from '../constants';
 
 
 export interface Theme {
-    name: keyof typeof ThemeNames;
-    type: keyof typeof ThemeTypes;
+    name: keyof typeof THEME_NAMES;
+    type: keyof typeof THEME_TYPES;
     backgroundColorPrimary: string;
     backgroundColorPrimaryAlpha: string;
     backgroundColorPrimaryInverted: string;
