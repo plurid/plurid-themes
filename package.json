@@ -1,6 +1,6 @@
 {
     "name": "@plurid/apps.utilities.themes",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "Themes for Plurid Apps",
     "keywords": [
         "plurid",
@@ -32,32 +32,22 @@
         "npm": ">=5"
     },
     "scripts": {
-        "prepublishOnly": "yarn build.prod",
         "github.copy": "yarn github.copy.src && yarn github.copy.files && yarn github.copy.fixtures",
         "github.copy.src": "cp -r src github/",
-        "github.copy.files": "cp {.editorconfig,.gitignore,LICENSE,package.json,README.md,rollup.config.js,tsconfig.json,tsconfig.test.json,tslint.json,yarn.lock} github/",
+        "github.copy.files": "cp {.editorconfig,.gitignore,LICENSE,package.json,README.md,rollup.config.js,tsconfig.json,yarn.lock} github/",
         "github.copy.fixtures": "mkdir -p github/fixtures/themes-react && rsync -av --progress --exclude=\"node_modules\" fixtures/themes-react/ github/fixtures/themes-react/",
         "github.clean": "rm -rf github/* && rm {github/.editorconfig,github/.gitignore}",
         "github.commit": "cd github/ && git add . && git commit -m 'update: package' && git push origin master",
         "github": "yarn github.clean && yarn github.copy && yarn github.commit",
         "clean": "rm -rf ./dist",
-        "test": "cross-env CI=1 react-scripts-ts test --env=jsdom",
-        "test.watch": "react-scripts-ts test --env=jsdom",
-        "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
-        "build": "yarn clean && yarn test && yarn lint && yarn build.rollup",
+        "build": "yarn clean && yarn build.prod",
         "build.prod": "rollup -c --environment BUILD:production",
-        "build.rollup": "rollup -c",
-        "build.clean": "yarn clean && yarn build.rollup",
-        "start": "yarn clean && rollup -c -w"
-    },
-    "peerDependencies": {
+        "build.dev": "yarn clean && rollup -c",
+        "start": "yarn clean && rollup -c -w",
+        "prepublishOnly": "yarn build"
     },
     "devDependencies": {
         "@svgr/rollup": "^4.3.2",
-        "@types/jest": "^24.0.18",
-        "babel-core": "^6.26.3",
-        "babel-runtime": "^6.26.0",
-        "cross-env": "^5.2.1",
         "rollup": "^1.20.3",
         "rollup-plugin-babel": "^4.3.3",
         "rollup-plugin-commonjs": "^10.1.0",
@@ -66,10 +56,6 @@
         "rollup-plugin-postcss": "^2.0.3",
         "rollup-plugin-typescript2": "^0.24.0",
         "rollup-plugin-url": "^2.2.2",
-        "tslint": "^5.19.0",
-        "tslint-config-prettier": "^1.18.0",
         "typescript": "^3.6.2"
-    },
-    "dependencies": {
     }
 }
