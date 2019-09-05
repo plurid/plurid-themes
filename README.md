@@ -6,7 +6,7 @@
     <a target="_blank" href="https://www.npmjs.com/package/@plurid/apps.utilities.themes">
         <img src="https://img.shields.io/npm/v/@plurid/apps.utilities.themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
     </a>
-    <a target="_blank" href="https://github.com/plurid/apps.utilities.themes/blob/master/LICENSE">
+    <a target="_blank" href="https://github.com/plurid/apps-utilities-themes/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg?colorB=1380C3&style=for-the-badge" alt="License: MIT">
     </a>
 </p>
