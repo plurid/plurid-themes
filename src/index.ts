@@ -1,4 +1,9 @@
 import {
+    THEME_NAMES as _THEME_NAMES,
+    THEME_TYPES as _THEME_TYPES,
+} from './constants';
+
+import {
     Theme as _Theme,
 } from './interfaces';
 
@@ -15,6 +20,9 @@ import _deview from './themes/product/deview';
 
 
 export interface Theme extends _Theme {}
+
+export const THEME_NAMES = _THEME_NAMES;
+export const THEME_TYPES = _THEME_TYPES;
 
 export const night = _night;
 export const dusk = _dusk;
