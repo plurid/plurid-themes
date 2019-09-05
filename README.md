@@ -13,16 +13,16 @@
 
 
 
-There are four base themes and multiple, plurid-based product themes.
+There are four base themes and multiple, `plurid`-based product themes.
 
 The four base themes consist of:
 
-+ night
-+ dusk
-+ dawn
-+ light
++ `night`
++ `dusk`
++ `dawn`
++ `light`
 
-where the lightness increases from the `night` to the `light`.
+where the lightness increases from the `night` to `light`.
 
 The four base themes are inspired by [radical-style-interfaces](https://github.com/plurid/radical-style-interfaces).
 
