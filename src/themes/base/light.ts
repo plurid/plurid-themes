@@ -1,6 +1,17 @@
-const light = {
-    name: 'light',
-    type: 'bright',
+import {
+    Theme,
+} from '../../interfaces';
+
+import {
+    THEME_NAME_LIGHT,
+    THEME_TYPE_BRIGHT,
+} from '../../constants';
+
+
+
+const light: Theme = {
+    name: THEME_NAME_LIGHT,
+    type: THEME_TYPE_BRIGHT,
     backgroundColorPrimary: 'hsl(220, 2%, 97%)',
     backgroundColorPrimaryAlpha: 'hsla(220, 2%, 97%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(220, 2%, 3%)',

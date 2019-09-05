@@ -1,6 +1,17 @@
-const depict = {
-    name: 'depict',
-    type: 'dark',
+import {
+    Theme,
+} from '../../interfaces';
+
+import {
+    THEME_NAME_DEPICT,
+    THEME_TYPE_DARK,
+} from '../../constants';
+
+
+
+const depict: Theme = {
+    name: THEME_NAME_DEPICT,
+    type: THEME_TYPE_DARK,
     backgroundColorPrimary: 'hsl(327, 94%, 20%)',
     backgroundColorPrimaryAlpha: 'hsla(327, 94%, 20%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(327, 94%, 80%)',
