@@ -1,19 +1,15 @@
 import React from 'react';
 
-import themes from '@plurid/apps.utilities.themes';
-
-
-const themeNames = [
-    'night', 'dusk', 'dawn', 'light',
-    'depict',
-];
 
 
 const ThemePicker: React.FC<any> = (props) => {
     const {
         theme,
+        themes,
         setTheme,
     } = props;
+
+    const themeNames = Object.keys(themes);
 
     return (
         <div
@@ -26,7 +22,6 @@ const ThemePicker: React.FC<any> = (props) => {
             <div
                 style={{
                     textAlign: 'center',
-                    width: '300px',
                     margin: '0px auto',
                     userSelect: 'none',
                 }}

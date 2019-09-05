@@ -1,6 +1,17 @@
-const night = {
-    name: 'night',
-    type: 'dark',
+import {
+    Theme,
+} from '../../interfaces';
+
+import {
+    THEME_NAME_NIGHT,
+    THEME_TYPE_DARK,
+} from '../../constants';
+
+
+
+const night: Theme = {
+    name: THEME_NAME_NIGHT,
+    type: THEME_TYPE_DARK,
     backgroundColorPrimary: 'hsl(220, 2%, 4%)',
     backgroundColorPrimaryAlpha: 'hsla(220, 2%, 4%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(220, 2%, 96%)',

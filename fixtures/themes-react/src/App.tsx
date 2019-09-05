@@ -9,12 +9,13 @@ import ThemePicker from './components/ThemePicker';
 
 
 const App: React.FC = () => {
-    const [theme, setTheme] = useState(themes.depict);
+    const [theme, setTheme] = useState(themes.deview);
 
     return (
         <div className="App">
             <ThemePicker
                 theme={theme.name}
+                themes={themes}
                 setTheme={setTheme}
             />
 

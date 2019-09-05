@@ -1,6 +1,17 @@
-const dusk = {
-    name: 'dusk',
-    type: 'dark',
+import {
+    Theme,
+} from '../../interfaces';
+
+import {
+    THEME_NAME_DUSK,
+    THEME_TYPE_DARK,
+} from '../../constants';
+
+
+
+const dusk: Theme = {
+    name: THEME_NAME_DUSK,
+    type: THEME_TYPE_DARK,
     backgroundColorPrimary: 'hsl(220, 2%, 15%)',
     backgroundColorPrimaryAlpha: 'hsla(220, 2%, 15%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(220, 2%, 85%)',
