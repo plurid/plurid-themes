@@ -1,15 +1,51 @@
-# Plurid Apps Themes
+<h1 align="center">
+    Plurid Apps Themes
+</h1>
+
+<p align="center">
+    <a target="_blank" href="https://www.npmjs.com/package/@plurid/apps.utilities.themes">
+        <img src="https://img.shields.io/npm/v/@plurid/apps.utilities.themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
+    </a>
+    <a target="_blank" href="https://github.com/plurid/apps.utilities.themes/blob/master/LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-blue.svg?colorB=1380C3&style=for-the-badge" alt="License: MIT">
+    </a>
+</p>
 
 
-There are 4 base themes and multiple, plurid-based product themes.
 
-The 4 base themes consist of:
+There are four base themes and multiple, plurid-based product themes.
+
+The four base themes consist of:
 
 + night
 + dusk
 + dawn
 + light
 
-where the lightness increases from the first to the last.
+where the lightness increases from the `night` to the `light`.
 
-A theme can be further more classified based on the theme type, `bright` or `dark`. A `dark` theme will have the primary color darker than the secondary color, whereas a `bright` theme will have the primary color brighter than the secondary color.
+The four base themes are inspired by [radical-style-interfaces](https://github.com/plurid/radical-style-interfaces).
+
+A theme can be further more classified based on the theme `type` (`dark` or `bright`). A `dark` theme will have the primary color darker than the secondary color, whereas a `bright` theme will have the primary color brighter than the secondary color.
+
+
+## Usage
+
+The themes are intended to be used for `CSS-in-JS` styling along with `react`, `styled-components`, or other packages.
+
+    interface Theme {
+        name: "night" | "dusk" | "dawn" | "light"
+            | "plurid" | "depict" | "deview";
+        type: "dark" | "bright";
+        backgroundColorPrimary: string;
+        backgroundColorPrimaryAlpha: string;
+        backgroundColorPrimaryInverted: string;
+        backgroundColorSecondary: string;
+        backgroundColorSecondaryAlpha: string;
+        backgroundColorTertiary: string;
+        backgroundColorTertiaryAlpha: string;
+        colorPrimary: string;
+        colorPrimaryInverted: string;
+        colorSecondary: string;
+        shadow: string;
+    }
