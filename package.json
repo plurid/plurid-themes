@@ -1,6 +1,6 @@
 {
     "name": "@plurid/apps.utilities.themes",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Themes for Plurid Apps",
     "keywords": [
         "plurid",
@@ -32,7 +32,7 @@
         "npm": ">=5"
     },
     "scripts": {
-        "prepublishOnly": "yarn build.rollup",
+        "prepublishOnly": "yarn build.prod",
         "github.copy": "yarn github.copy.src && yarn github.copy.files && yarn github.copy.fixtures",
         "github.copy.src": "cp -r src github/",
         "github.copy.files": "cp {.editorconfig,.gitignore,LICENSE,package.json,README.md,rollup.config.js,tsconfig.json,tsconfig.test.json,tslint.json,yarn.lock} github/",

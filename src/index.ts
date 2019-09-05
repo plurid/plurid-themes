@@ -1,3 +1,8 @@
+import {
+    Theme as _Theme,
+} from './interfaces';
+
+
 import _night from './themes/base/night';
 import _dusk from './themes/base/dusk';
 import _dawn from './themes/base/dawn';
@@ -8,6 +13,8 @@ import _depict from './themes/product/depict';
 import _deview from './themes/product/deview';
 
 
+
+export interface Theme extends _Theme {}
 
 export const night = _night;
 export const dusk = _dusk;
