@@ -54,20 +54,24 @@ const App: React.FC = () => {
                 <Stripe
                     text="theme.baseColorInverted"
                     backgroundColor={theme.baseColorInverted}
-                    color={theme.colorPrimary}
+                    color={theme.colorPrimaryInverted}
                 />
             )}
 
             <Stripe
                 text="theme.backgroundColorDark"
                 backgroundColor={theme.backgroundColorDark}
-                color={theme.colorPrimary}
+                color={theme.type === 'bright'
+                    ? theme.colorPrimaryInverted
+                    : theme.colorPrimary}
             />
 
             <Stripe
                 text="theme.backgroundColorBright"
                 backgroundColor={theme.backgroundColorBright}
-                color={theme.colorPrimaryInverted}
+                color={theme.type === 'bright'
+                    ? theme.colorPrimary
+                    : theme.colorPrimaryInverted}
             />
 
             <Nary
