@@ -45,17 +45,17 @@ const dusk: Theme = {
     colorTertiaryInverted: 'hsl(220, 2%, 45%)',
 
 
-    boxShadowUmbra: '0px 3px 6px 0px hsla(220, 2%, 10%, 0.8)',
-    boxShadowUmbraColor: 'hsla(220, 2%, 10%, 0.8)',
-    boxShadowUmbraInset: 'inset 0px -3px 4px 0px hsla(220, 2%, 10%, 0.9)',
+    boxShadowUmbra: '0px 3px 6px 0px hsla(220, 2%, 5%, 0.8)',
+    boxShadowUmbraColor: 'hsla(220, 2%, 5%, 0.8)',
+    boxShadowUmbraInset: 'inset 0px -3px 4px 0px hsla(220, 2%, 5%, 0.9)',
 
-    boxShadowPenumbra: '0px 3px 12px 0px hsla(220, 2%, 10%, 0.8)',
-    boxShadowPenumbraColor: 'hsla(220, 2%, 10%, 0.8)',
-    boxShadowPenumbraInset: 'inset 0px -3px 6px 0px hsla(220, 2%, 10%, 0.9)',
+    boxShadowPenumbra: '0px 3px 12px 0px hsla(220, 2%, 5%, 0.8)',
+    boxShadowPenumbraColor: 'hsla(220, 2%, 5%, 0.8)',
+    boxShadowPenumbraInset: 'inset 0px -3px 6px 0px hsla(220, 2%, 5%, 0.9)',
 
-    boxShadowAntumbra: '0px 3px 18px 0px hsla(220, 2%, 10%, 0.8)',
-    boxShadowAntumbraColor: 'hsla(220, 2%, 10%, 0.8)',
-    boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(220, 2%, 10%, 0.9)',
+    boxShadowAntumbra: '0px 3px 18px 0px hsla(220, 2%, 5%, 0.8)',
+    boxShadowAntumbraColor: 'hsla(220, 2%, 5%, 0.8)',
+    boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(220, 2%, 5%, 0.9)',
 };
 
 
