@@ -10,19 +10,52 @@ import {
 
 
 const plurid: Theme = {
-    name: THEME_NAME_PLURID,
     type: THEME_TYPE_BRIGHT,
+    name: THEME_NAME_PLURID,
+
+    baseColor: 'hsl(247, 19%, 39%)',
+    baseColorInverted: 'hsl(247, 19%, 61%)',
+
+    backgroundColorDark: 'hsl(247, 19%, 10%)',
+    backgroundColorBright: 'hsl(247, 19%, 90%)',
+
     backgroundColorPrimary: 'hsl(247, 19%, 39%)',
     backgroundColorPrimaryAlpha: 'hsla(247, 19%, 39%, 0.4)',
-    backgroundColorPrimaryInverted: 'hsla(247, 19%, 61%)',
-    backgroundColorSecondary: 'hsl(247, 19%, 19%)',
-    backgroundColorSecondaryAlpha: 'hsla(247, 19%, 19%, 0.4)',
-    backgroundColorTertiary: 'hsl(247, 19%, 9%)',
-    backgroundColorTertiaryAlpha: 'hsla(247, 19%, 9%, 0.4)',
+    backgroundColorPrimaryInverted: 'hsl(247, 19%, 61%)',
+
+    backgroundColorSecondary: 'hsl(247, 19%, 29%)',
+    backgroundColorSecondaryAlpha: 'hsla(247, 19%, 29%, 0.4)',
+    backgroundColorSecondaryInverted: 'hsl(247, 19%, 71%)',
+
+    backgroundColorTertiary: 'hsl(247, 19%, 19%)',
+    backgroundColorTertiaryAlpha: 'hsla(247, 19%, 19%, 0.4)',
+    backgroundColorTertiaryInverted: 'hsl(247, 19%, 81%)',
+
+    backgroundColorQuaternary: 'hsl(247, 19%, 9%)',
+    backgroundColorQuaternaryAlpha: 'hsla(247, 19%, 9%, 0.4)',
+    backgroundColorQuaternaryInverted: 'hsl(247, 19%, 91%)',
+
     colorPrimary: 'hsl(247, 7%, 97%)',
-    colorPrimaryInverted: 'hsl(247, 7%, 77%)',
+    colorPrimaryInverted: 'hsl(247, 7%, 3%)',
+
     colorSecondary: 'hsl(247, 7%, 77%)',
-    shadow: 'hsla(247, 94%, 10%, 0.7)',
+    colorSecondaryInverted: 'hsl(247, 7%, 23%)',
+
+    colorTertiary: 'hsl(247, 7%, 57%)',
+    colorTertiaryInverted: 'hsl(247, 7%, 43%)',
+
+
+    boxShadowUmbra: '0px 3px 6px 0px hsla(247, 94%, 10%, 0.8)',
+    boxShadowUmbraColor: 'hsla(247, 94%, 10%, 0.8)',
+    boxShadowUmbraInset: 'inset 0px -3px 4px 0px hsla(247, 94%, 10%, 0.9)',
+
+    boxShadowPenumbra: '0px 3px 12px 0px hsla(247, 94%, 10%, 0.8)',
+    boxShadowPenumbraColor: 'hsla(247, 94%, 10%, 0.8)',
+    boxShadowPenumbraInset: 'inset 0px -3px 6px 0px hsla(247, 94%, 10%, 0.9)',
+
+    boxShadowAntumbra: '0px 3px 18px 0px hsla(247, 94%, 10%, 0.8)',
+    boxShadowAntumbraColor: 'hsla(247, 94%, 10%, 0.8)',
+    boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(247, 94%, 10%, 0.9)',
 };
 
 

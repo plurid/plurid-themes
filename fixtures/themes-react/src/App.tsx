@@ -1,66 +1,102 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import themes from '@plurid/apps.utilities.themes';
+import themes, { Theme } from '@plurid/apps.utilities.themes';
 
-import Stripe from './components/Stripe';
 import ThemePicker from './components/ThemePicker';
+import Options from './components/Options';
+import Stripe from './components/Stripe';
+import Nary from './components/Nary';
+import Shadows from './components/Shadows';
 
 
 
 const App: React.FC = () => {
-    const [theme, setTheme] = useState(themes.deview);
+    const [theme, setTheme] = useState<Theme>(themes.depict);
+    const [viewMain, setViewMain] = useState(false);
 
     return (
-        <div className="App">
-            <ThemePicker
-                theme={theme.name}
-                themes={themes}
-                setTheme={setTheme}
-            />
+        <div className="App"
+            style={{
+                color: theme.colorPrimary,
+                // background: theme.backgroundColorPrimary,
+            }}
+        >
+            <div
+                style={{
+                    position: 'fixed',
+                    width: '100%',
+                    background: 'white',
+                    boxShadow: theme.boxShadowUmbra,
+                }}
+            >
+                <ThemePicker
+                    theme={theme.name}
+                    themes={themes}
+                    setTheme={setTheme}
+                />
+
+                <Options
+                    viewMain={viewMain}
+                    setViewMain={setViewMain}
+                />
+            </div>
+
+            <div style={{ height: 140 }} />
 
             <Stripe
-                text="theme.backgroundColorPrimary"
-                backgroundColor={theme.backgroundColorPrimary}
+                text="theme.baseColor"
+                backgroundColor={theme.baseColor}
+                color={theme.colorPrimary}
+            />
+
+            {!viewMain && (
+                <Stripe
+                    text="theme.baseColorInverted"
+                    backgroundColor={theme.baseColorInverted}
+                    color={theme.colorPrimary}
+                />
+            )}
+
+            <Stripe
+                text="theme.backgroundColorDark"
+                backgroundColor={theme.backgroundColorDark}
                 color={theme.colorPrimary}
             />
 
             <Stripe
-                text="theme.backgroundColorPrimaryAlpha"
-                backgroundColor={theme.backgroundColorPrimaryAlpha}
-                color={theme.colorPrimary}
+                text="theme.backgroundColorBright"
+                backgroundColor={theme.backgroundColorBright}
+                color={theme.colorPrimaryInverted}
             />
 
-            <Stripe
-                text="theme.backgroundColorPrimaryInverted"
-                backgroundColor={theme.backgroundColorPrimaryInverted}
-                color={theme.colorPrimary}
+            <Nary
+                theme={theme}
+                type="Primary"
+                viewMain={viewMain}
             />
 
-            <Stripe
-                text="theme.backgroundColorSecondary"
-                backgroundColor={theme.backgroundColorSecondary}
-                color={theme.colorPrimary}
+            <Nary
+                theme={theme}
+                type="Secondary"
+                viewMain={viewMain}
             />
 
-            <Stripe
-                text="theme.backgroundColorSecondaryAlpha"
-                backgroundColor={theme.backgroundColorSecondaryAlpha}
-                color={theme.colorPrimary}
+            <Nary
+                theme={theme}
+                type="Tertiary"
+                viewMain={viewMain}
             />
 
-            <Stripe
-                text="theme.backgroundColorTertiary"
-                backgroundColor={theme.backgroundColorTertiary}
-                color={theme.colorPrimary}
+            <Nary
+                theme={theme}
+                type="Quaternary"
+                viewMain={viewMain}
             />
 
-            <Stripe
-                text="theme.backgroundColorTertiaryAlpha"
-                backgroundColor={theme.backgroundColorTertiaryAlpha}
-                color={theme.colorPrimary}
+            <Shadows
+                theme={theme}
             />
-
         </div>
     );
 }

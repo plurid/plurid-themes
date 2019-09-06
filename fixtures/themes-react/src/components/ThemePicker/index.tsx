@@ -1,22 +1,33 @@
 import React from 'react';
 
+import { Theme } from '@plurid/apps.utilities.themes';
 
 
-const ThemePicker: React.FC<any> = (props) => {
+
+interface ThemePickerProperties {
+    theme: string,
+    themes: any,
+    setTheme: (theme: Theme) => void;
+}
+
+const ThemePicker: React.FC<ThemePickerProperties> = (properties) => {
     const {
         theme,
         themes,
         setTheme,
-    } = props;
+    } = properties;
 
     const themeNames = Object.keys(themes);
 
     return (
         <div
             style={{
-                height: '100px',
+                height: '80px',
                 display: 'flex',
                 alignItems: 'center',
+                backgroundColor: 'white',
+                color: 'black',
+                marginTop: 10,
             }}
         >
             <div

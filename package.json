@@ -44,10 +44,13 @@
         "build.prod": "rollup -c --environment BUILD:production",
         "build.dev": "yarn clean && rollup -c",
         "start": "yarn clean && rollup -c -w",
+        "spec": "jest",
         "prepublishOnly": "yarn build"
     },
     "devDependencies": {
         "@svgr/rollup": "^4.3.2",
+        "@types/jest": "^24.0.18",
+        "jest": "^24.9.0",
         "rollup": "^1.20.3",
         "rollup-plugin-babel": "^4.3.3",
         "rollup-plugin-commonjs": "^10.1.0",
@@ -56,6 +59,36 @@
         "rollup-plugin-postcss": "^2.0.3",
         "rollup-plugin-typescript2": "^0.24.0",
         "rollup-plugin-url": "^2.2.2",
+        "ts-jest": "^24.0.2",
         "typescript": "^3.6.2"
+    },
+    "jest": {
+        "rootDir": "src",
+        "transform": {
+            ".(ts|tsx)": "ts-jest"
+        },
+        "testEnvironment": "node",
+        "testRegex": "(/__specs__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
+        "collectCoverage": true,
+        "coveragePathIgnorePatterns": [
+            "/node_modules/",
+            "/dist/"
+        ],
+        "coverageThreshold": {
+            "global": {
+                "branches": 90,
+                "functions": 95,
+                "lines": 95,
+                "statements": 95
+            }
+        },
+        "collectCoverageFrom": [
+            "src/*.{js,ts}"
+        ]
     }
 }
