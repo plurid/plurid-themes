@@ -7,6 +7,7 @@ import {
     Theme as _Theme,
 } from './interfaces';
 
+import _generateTheme from './themes/generate';
 
 import _night from './themes/base/night';
 import _dusk from './themes/base/dusk';
@@ -23,6 +24,8 @@ export interface Theme extends _Theme {}
 
 export const THEME_NAMES = _THEME_NAMES;
 export const THEME_TYPES = _THEME_TYPES;
+
+export const generateTheme = _generateTheme;
 
 export const night = _night;
 export const dusk = _dusk;

@@ -2,6 +2,8 @@ export const THEME_TYPE_DARK = 'dark';
 export const THEME_TYPE_BRIGHT = 'bright';
 
 
+export const THEME_NAME_GENERATED = 'generated';
+
 export const THEME_NAME_NIGHT = 'night';
 export const THEME_NAME_DUSK = 'dusk';
 export const THEME_NAME_DAWN = 'dawn';
@@ -18,6 +20,8 @@ export const THEME_TYPES = {
 }
 
 export const THEME_NAMES = {
+    generated: THEME_NAME_GENERATED,
+
     night: THEME_NAME_NIGHT,
     dusk: THEME_NAME_DUSK,
     dawn: THEME_NAME_DAWN,

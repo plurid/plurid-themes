@@ -34,18 +34,52 @@ A theme can be further more classified based on the theme `type` (`dark` or `bri
 The themes are intended to be used for `CSS-in-JS` styling along with `react`, `styled-components`, or other packages.
 
     interface Theme {
-        name: "night" | "dusk" | "dawn" | "light"
-            | "plurid" | "depict" | "deview";
         type: "dark" | "bright";
+        name: "generated" | "night" | "dusk" | "dawn" | "light"
+            | "plurid" | "depict" | "deview";
+
+        baseColor: string;
+        baseColorInverted: string;
+
+        backgroundColorDark: string;
+        backgroundColorBright: string;
+
         backgroundColorPrimary: string;
         backgroundColorPrimaryAlpha: string;
         backgroundColorPrimaryInverted: string;
+
         backgroundColorSecondary: string;
         backgroundColorSecondaryAlpha: string;
+        backgroundColorSecondaryInverted: string;
+
         backgroundColorTertiary: string;
         backgroundColorTertiaryAlpha: string;
+        backgroundColorTertiaryInverted: string;
+
+        backgroundColorQuaternary: string;
+        backgroundColorQuaternaryAlpha: string;
+        backgroundColorQuaternaryInverted: string;
+
+
         colorPrimary: string;
         colorPrimaryInverted: string;
+
         colorSecondary: string;
-        shadow: string;
+        colorSecondaryInverted: string;
+
+        colorTertiary: string;
+        colorTertiaryInverted: string;
+
+
+        boxShadowUmbra: string;
+        boxShadowUmbraColor: string;
+        boxShadowUmbraInset: string;
+
+        boxShadowPenumbra: string;
+        boxShadowPenumbraColor: string;
+        boxShadowPenumbraInset: string;
+
+        boxShadowAntumbra: string;
+        boxShadowAntumbraColor: string;
+        boxShadowAntumbraInset: string;
     }
