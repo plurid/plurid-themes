@@ -38,11 +38,11 @@ const plurid: Theme = {
     colorPrimary: 'hsl(247, 7%, 97%)',
     colorPrimaryInverted: 'hsl(247, 7%, 3%)',
 
-    colorSecondary: 'hsl(247, 7%, 77%)',
-    colorSecondaryInverted: 'hsl(247, 7%, 23%)',
+    colorSecondary: 'hsl(247, 7%, 80%)',
+    colorSecondaryInverted: 'hsl(247, 7%, 20%)',
 
-    colorTertiary: 'hsl(247, 7%, 57%)',
-    colorTertiaryInverted: 'hsl(247, 7%, 43%)',
+    colorTertiary: 'hsl(247, 7%, 60%)',
+    colorTertiaryInverted: 'hsl(247, 7%, 40%)',
 
 
     boxShadowUmbra: '0px 3px 6px 0px hsla(247, 94%, 10%, 0.8)',

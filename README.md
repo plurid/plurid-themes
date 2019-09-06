@@ -29,6 +29,9 @@ The four base themes are inspired by [radical-style-interfaces](https://github.c
 A theme can be further more classified based on the theme `type` (`dark` or `bright`). A `dark` theme will have the primary color darker than the secondary color, whereas a `bright` theme will have the primary color brighter than the secondary color.
 
 
+## [Demo](https://plurid-apps-themes.netlify.com/)
+
+
 ## Usage
 
 The themes are intended to be used for `CSS-in-JS` styling along with `react`, `styled-components`, or other packages.
