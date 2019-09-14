@@ -32,27 +32,30 @@
         "npm": ">=5"
     },
     "scripts": {
-        "prepublishOnly": "yarn build.rollup",
-        "github.copy": "cp -r src github/ && cp {.editorconfig,.gitignore,LICENSE,package.json,README.md,rollup.config.js,tsconfig.json,tsconfig.test.json,tslint.json,yarn.lock} github/",
+        "github.copy": "cp -r src github/ && cp {.editorconfig,.eslintrc.js,.gitignore,jest.config.js,LICENSE,package.json,README.md,rollup.config.js,tsconfig.json,yarn.lock} github/",
         "github.clean": "rm -rf github/* && rm {github/.editorconfig,github/.gitignore}",
         "github.commit": "cd github/ && git add . && git commit -m 'update: package' && git push origin master",
         "github": "yarn github.clean && yarn github.copy && yarn github.commit",
         "clean": "rm -rf ./dist",
-        "build": "yarn clean && yarn test && yarn lint && yarn build.rollup",
-        "build.dev": "rollup -c",
-        "build.clean": "yarn clean && yarn build.rollup",
-        "start": "yarn clean && rollup -c -w"
-    },
-    "peerDependencies": {
+        "spec": "jest",
+        "lint": "eslint ./src/index.ts",
+        "start": "yarn clean && rollup -c -w",
+        "build.dev": "yarn clean && rollup -c",
+        "build.prod": "rollup -c --environment BUILD:production",
+        "build": "yarn clean && yarn spec && yarn lint && yarn build.prod",
+        "prepublishOnly": "yarn build"
     },
     "devDependencies": {
         "@types/crypto-js": "^3.1.43",
         "@types/jest": "^24.0.18",
+        "@types/node": "^12.7.5",
+        "@typescript-eslint/eslint-plugin": "^2.2.0",
+        "@typescript-eslint/parser": "^2.2.0",
+        "eslint": "^6.4.0",
+        "jest": "^24.9.0",
         "rollup": "^1.21.2",
         "rollup-plugin-typescript2": "^0.24.2",
-        "tslint": "^5.20.0",
+        "ts-jest": "^24.1.0",
         "typescript": "^3.6.3"
-    },
-    "dependencies": {
     }
 }
