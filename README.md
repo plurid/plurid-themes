@@ -13,16 +13,17 @@
 
 
 
-There are four base themes and multiple, `plurid`-based product themes.
+There are five base themes and multiple, `plurid`-based product themes.
 
-The four base themes consist of:
+The five base themes consist of:
 
 + `night`
 + `dusk`
 + `dawn`
 + `light`
++ `ponton`
 
-where the lightness increases from the `night` to `light`.
+where the lightness increases from the `night` to `light`, and `ponton` is a blue-based theme.
 
 The four base themes are inspired by [radical-style-interfaces](https://github.com/plurid/radical-style-interfaces).
 
@@ -38,7 +39,7 @@ The themes are intended to be used for `CSS-in-JS` styling along with `react`, `
 
     interface Theme {
         type: "dark" | "bright";
-        name: "generated" | "night" | "dusk" | "dawn" | "light"
+        name: "generated" | "night" | "dusk" | "dawn" | "light" | "ponton"
             | "plurid" | "depict" | "deview";
 
         baseColor: string;
