@@ -4,13 +4,13 @@ import {
 
 import {
     THEME_NAME_PLURID,
-    THEME_TYPE_DARK,
+    THEME_TYPE_BRIGHT,
 } from '../../constants';
 
 
 
 const plurid: Theme = {
-    type: THEME_TYPE_DARK,
+    type: THEME_TYPE_BRIGHT,
     name: THEME_NAME_PLURID,
 
     baseColor: 'hsl(220, 10%, 32%)',
