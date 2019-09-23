@@ -13,19 +13,24 @@
 
 
 
-There are five base themes and multiple, `plurid`-based product themes.
+There are four shade-oriented base themes, three color-oriented base themes, and multiple `plurid`-oriented product themes.
 
-The five base themes consist of:
+The four shade-oriented base themes consist of:
 
 + `night`
 + `dusk`
 + `dawn`
 + `light`
-+ `ponton`
 
-where the lightness increases from the `night` to `light`, and `ponton` is a blue-based theme.
+where the lightness increases from the `night` to `light`,
 
-The four base themes are inspired by [radical-style-interfaces](https://github.com/plurid/radical-style-interfaces).
+and the three color-oriented base themes are:
+
++ `ponton` - blue-based
++ `jaune` - yellow-based
++ `furor` - red-based.
+
+The four shade-oriented base themes are inspired by [radical-style-interfaces](https://github.com/plurid/radical-style-interfaces).
 
 A theme can be further more classified based on the theme `type` (`dark` or `bright`). A `dark` theme will have the primary color darker than the secondary color, whereas a `bright` theme will have the primary color brighter than the secondary color.
 
