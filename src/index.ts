@@ -1,51 +1,62 @@
 import {
-    THEME_NAMES as _THEME_NAMES,
-    THEME_TYPES as _THEME_TYPES,
+    THEME_NAMES,
+    THEME_TYPES,
 } from './constants';
 
 import {
-    Theme as _Theme,
+    Theme,
 } from './interfaces';
 
-import _generateTheme from './themes/generate';
+import generateTheme from './themes/generate';
 
-import _night from './themes/base/night';
-import _dusk from './themes/base/dusk';
-import _dawn from './themes/base/dawn';
-import _light from './themes/base/light';
+import night from './themes/base/night';
+import dusk from './themes/base/dusk';
+import dawn from './themes/base/dawn';
+import light from './themes/base/light';
+import ponton from './themes/base/ponton';
 
-import _plurid from './themes/product/plurid';
-import _depict from './themes/product/depict';
-import _deview from './themes/product/deview';
+import plurid from './themes/product/plurid';
+import depict from './themes/product/depict';
+import deview from './themes/product/deview';
 
 
 
-export interface Theme extends _Theme {}
+export {
+    // interfaces
+    Theme,
 
-export const THEME_NAMES = _THEME_NAMES;
-export const THEME_TYPES = _THEME_TYPES;
+    // constants
+    THEME_NAMES,
+    THEME_TYPES,
 
-export const generateTheme = _generateTheme;
+    // functions
+    generateTheme,
 
-export const night = _night;
-export const dusk = _dusk;
-export const dawn = _dawn;
-export const light = _light;
+    // themes
+    // base
+    night,
+    dusk,
+    dawn,
+    light,
+    ponton,
 
-export const plurid = _plurid;
-export const depict = _depict;
-export const deview = _deview;
+    // product
+    plurid,
+    depict,
+    deview,
+}
 
 
 const themes = {
-    night: _night,
-    dusk: _dusk,
-    dawn: _dawn,
-    light: _light,
+    night,
+    dusk,
+    dawn,
+    light,
+    ponton,
 
-    plurid: _plurid,
-    depict: _depict,
-    deview: _deview,
-}
+    plurid,
+    depict,
+    deview,
+};
 
 export default themes;

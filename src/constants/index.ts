@@ -8,6 +8,7 @@ export const THEME_NAME_NIGHT = 'night';
 export const THEME_NAME_DUSK = 'dusk';
 export const THEME_NAME_DAWN = 'dawn';
 export const THEME_NAME_LIGHT = 'light';
+export const THEME_NAME_PONTON = 'ponton';
 
 export const THEME_NAME_PLURID = 'plurid';
 export const THEME_NAME_DEPICT = 'depict';
@@ -26,6 +27,7 @@ export const THEME_NAMES = {
     dusk: THEME_NAME_DUSK,
     dawn: THEME_NAME_DAWN,
     light: THEME_NAME_LIGHT,
+    ponton: THEME_NAME_PONTON,
 
     plurid: THEME_NAME_PLURID,
     depict: THEME_NAME_DEPICT,
