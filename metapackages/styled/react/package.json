@@ -1,5 +1,5 @@
 {
-    "name": "@plurid/apps.utilities.styled-react",
+    "name": "@plurid/utilities.styled.react",
     "version": "0.1.1",
     "description": "Styled React Components for Plurid Apps",
     "keywords": [
@@ -11,13 +11,13 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/plurid/apps-utilities-styled-react"
+        "url": "https://github.com/plurid/utilities"
     },
     "bugs": {
         "email": "feedback@plurid.com",
-        "url": "https://github.com/plurid/apps-utilities-styled-react/issues"
+        "url": "https://github.com/plurid/utilities/issues"
     },
-    "homepage": "https://github.com/plurid/apps-utilities-styled-react",
+    "homepage": "https://github.com/plurid/utilities",
     "publishConfig": {
         "access": "public"
     },
@@ -32,57 +32,41 @@
         "npm": ">=5"
     },
     "scripts": {
-        "prepublishOnly": "yarn build.rollup",
-        "github.copy": "cp -r src github/ && cp {.editorconfig,.gitignore,LICENSE,package.json,README.md,rollup.config.js,tsconfig.json,tsconfig.test.json,tslint.json,yarn.lock} github/",
-        "github.clean": "rm -rf github/* && rm {github/.editorconfig,github/.gitignore}",
-        "github.commit": "cd github/ && git add . && git commit -m 'update: package' && git push origin master",
-        "github": "yarn github.clean && yarn github.copy && yarn github.commit",
+        "spec": "jest",
+        "lint": "eslint ./src/index.ts",
         "clean": "rm -rf ./dist",
-        "test": "cross-env CI=1 react-scripts-ts test --env=jsdom",
-        "test.watch": "react-scripts-ts test --env=jsdom",
-        "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
-        "build": "yarn clean && yarn test && yarn lint && yarn build.rollup",
-        "build.rollup": "rollup -c",
-        "build.clean": "yarn clean && yarn build.rollup",
-        "start": "yarn clean && rollup -c -w"
+        "start": "yarn clean && rollup -c -w",
+        "build.dev": "yarn clean && rollup -c",
+        "build.prod": "rollup -c --environment BUILD:production",
+        "build": "yarn clean && yarn lint && yarn spec && yarn build.prod",
+        "prepublishOnly": "yarn build"
     },
     "peerDependencies": {
-        "prop-types": ">=15",
         "react": ">=16",
         "react-dom": ">=16",
         "styled-components": ">=4"
     },
     "devDependencies": {
-        "@svgr/rollup": "^4.3.1",
-        "@types/enzyme": "^3.10.2",
+        "@svgr/rollup": "^4.3.3",
+        "@types/enzyme": "^3.10.3",
         "@types/enzyme-adapter-react-16": "^1.0.5",
-        "@types/jest": "^24.0.15",
-        "@types/react": "^16.8.23",
-        "@types/react-dom": "^16.8.4",
-        "@types/styled-components": "^4.1.18",
-        "babel-core": "^6.26.3",
-        "babel-runtime": "^6.26.0",
-        "cross-env": "^5.2.0",
+        "@types/jest": "^24.0.18",
+        "@types/react": "^16.9.3",
+        "@types/react-dom": "^16.9.1",
+        "@types/styled-components": "^4.1.19",
+        "@typescript-eslint/eslint-plugin": "^2.3.1",
+        "@typescript-eslint/parser": "^2.3.1",
         "enzyme": "^3.10.0",
         "enzyme-adapter-react-16": "^1.14.0",
-        "prop-types": "^15.7.2",
+        "eslint": "^6.4.0",
+        "jest": "^24.9.0",
         "react": "^16.8.3",
         "react-dom": "^16.8.3",
-        "react-test-renderer": "^16.8.6",
-        "rollup": "^1.16.7",
-        "rollup-plugin-babel": "^4.3.3",
-        "rollup-plugin-commonjs": "^10.0.1",
-        "rollup-plugin-node-resolve": "^5.2.0",
-        "rollup-plugin-peer-deps-external": "^2.2.0",
-        "rollup-plugin-postcss": "^2.0.3",
-        "rollup-plugin-typescript2": "^0.21.2",
-        "rollup-plugin-url": "^2.2.2",
+        "react-test-renderer": "^16.9.0",
+        "rollup": "^1.21.4",
+        "rollup-plugin-typescript2": "^0.24.3",
         "styled-components": "^4.3.2",
-        "tslint": "^5.18.0",
-        "tslint-config-prettier": "^1.18.0",
-        "tslint-react": "^4.0.0",
-        "typescript": "^3.5.3"
-    },
-    "dependencies": {
+        "ts-jest": "^24.1.0",
+        "typescript": "^3.6.3"
     }
 }
