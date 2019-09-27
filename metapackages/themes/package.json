@@ -1,0 +1,94 @@
+{
+    "name": "@plurid/utilities.themes",
+    "version": "0.1.0",
+    "description": "Themes for Plurid Apps",
+    "keywords": [
+        "plurid",
+        "themes",
+        "components"
+    ],
+    "author": "Jan Cavel <caveljan@plurid.com> (https://plurid.com)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/plurid/utilities"
+    },
+    "bugs": {
+        "email": "feedback@plurid.com",
+        "url": "https://github.com/plurid/utilities/issues"
+    },
+    "homepage": "https://github.com/plurid/utilities",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist/"
+    ],
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "jsnext:main": "dist/index.es.js",
+    "engines": {
+        "node": ">=8",
+        "npm": ">=5"
+    },
+    "scripts": {
+        "github.copy": "yarn github.copy.src && yarn github.copy.files && yarn github.copy.fixtures",
+        "github.copy.src": "cp -r src github/",
+        "github.copy.files": "cp {.editorconfig,.gitignore,LICENSE,package.json,README.md,rollup.config.js,tsconfig.json,yarn.lock} github/",
+        "github.copy.fixtures": "mkdir -p github/fixtures/themes-react && rsync -av --progress --exclude=\"node_modules\" fixtures/themes-react/ github/fixtures/themes-react/",
+        "github.clean": "rm -rf github/* && rm {github/.editorconfig,github/.gitignore}",
+        "github.commit": "cd github/ && git add . && git commit -m 'update: package' && git push origin master",
+        "github": "yarn github.clean && yarn github.copy && yarn github.commit",
+        "clean": "rm -rf ./dist",
+        "build": "yarn clean && yarn build.prod",
+        "build.prod": "rollup -c --environment BUILD:production",
+        "build.dev": "yarn clean && rollup -c",
+        "start": "yarn clean && rollup -c -w",
+        "spec": "jest",
+        "prepublishOnly": "yarn build"
+    },
+    "devDependencies": {
+        "@svgr/rollup": "^4.3.2",
+        "@types/jest": "^24.0.18",
+        "jest": "^24.9.0",
+        "rollup": "^1.21.4",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-peer-deps-external": "^2.2.0",
+        "rollup-plugin-postcss": "^2.0.3",
+        "rollup-plugin-typescript2": "^0.24.2",
+        "rollup-plugin-url": "^2.2.2",
+        "ts-jest": "^24.1.0",
+        "typescript": "^3.6.3"
+    },
+    "jest": {
+        "rootDir": "src",
+        "transform": {
+            ".(ts|tsx)": "ts-jest"
+        },
+        "testEnvironment": "node",
+        "testRegex": "(/__specs__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
+        "collectCoverage": true,
+        "coveragePathIgnorePatterns": [
+            "/node_modules/",
+            "/dist/"
+        ],
+        "coverageThreshold": {
+            "global": {
+                "branches": 90,
+                "functions": 95,
+                "lines": 95,
+                "statements": 95
+            }
+        },
+        "collectCoverageFrom": [
+            "src/*.{js,ts}"
+        ]
+    }
+}
