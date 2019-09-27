@@ -1,12 +1,12 @@
 <h1 align="center">
-    Plurid Apps Themes
+    Plurid Utilities Themes
 </h1>
 
 <p align="center">
-    <a target="_blank" href="https://www.npmjs.com/package/@plurid/apps.utilities.themes">
-        <img src="https://img.shields.io/npm/v/@plurid/apps.utilities.themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
+    <a target="_blank" href="https://www.npmjs.com/package/@plurid/utilities.themes">
+        <img src="https://img.shields.io/npm/v/@plurid/utilities.themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
     </a>
-    <a target="_blank" href="https://github.com/plurid/apps-utilities-themes/blob/master/LICENSE">
+    <a target="_blank" href="https://github.com/plurid/utilities/blob/master/metapackages/themes/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg?colorB=1380C3&style=for-the-badge" alt="License: MIT">
     </a>
 </p>
@@ -35,7 +35,7 @@ The four shade-oriented base themes are inspired by [radical-style-interfaces](h
 A theme can be further more classified based on the theme `type` (`dark` or `bright`). A `dark` theme will have the primary color darker than the secondary color, whereas a `bright` theme will have the primary color brighter than the secondary color.
 
 
-## [Demo](https://plurid-apps-themes.netlify.com/)
+## [Demo](https://plurid-themes.netlify.com/)
 
 
 ## Usage
