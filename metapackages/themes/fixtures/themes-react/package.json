@@ -1,13 +1,13 @@
 {
     "name": "themes-react",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "private": true,
     "dependencies": {
-        "@plurid/utilities.themes": "*",
+        "@plurid/utilities.themes": "^0.1.1",
         "@types/jest": "24.0.18",
-        "@types/node": "12.7.5",
-        "@types/react": "16.9.2",
-        "@types/react-dom": "16.9.0",
+        "@types/node": "12.7.8",
+        "@types/react": "16.9.3",
+        "@types/react-dom": "16.9.1",
         "react": "^16.9.0",
         "react-dom": "^16.9.0",
         "react-scripts": "3.1.2",
