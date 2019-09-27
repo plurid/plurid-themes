@@ -27,18 +27,18 @@ export default {
         },
     ],
     plugins: [
-        external(),
-        postcss({
-            modules: true,
-        }),
-        url(),
-        svgr(),
-        resolve(),
+        // external(),
+        // postcss({
+        //     modules: true,
+        // }),
+        // url(),
+        // svgr(),
+        // resolve(),
         typescript({
             check: false,
             rollupCommonJSResolveHack: true,
             clean: true
         }),
-        commonjs(),
+        // commonjs(),
     ],
 }
