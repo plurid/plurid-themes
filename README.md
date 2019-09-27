@@ -21,7 +21,7 @@
 
 [@plurid/utilities.functions][utilities.functions] • general use functions
 
-[utilities.functions]: https://github.com/plurid/utilities/tree/master/packages/functions
+[utilities.functions]: https://github.com/plurid/utilities/tree/master/metapackages/functions
 
 
 
@@ -31,7 +31,7 @@
 
 [@plurid/utilities.styled.react][utilities.styled.react]
 
-[utilities.styled.react]: https://github.com/plurid/utilities/tree/master/packages/styled.react
+[utilities.styled.react]: https://github.com/plurid/utilities/tree/master/metapackages/styled/react
 
 
 
@@ -41,4 +41,4 @@
 
 [@plurid/utilities.themes][utilities.themes]
 
-[utilities.themes]: https://github.com/plurid/utilities/tree/master/packages/themes
+[utilities.themes]: https://github.com/plurid/utilities/tree/master/metapackages/themes
