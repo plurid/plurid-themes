@@ -22,3 +22,23 @@
 [@plurid/utilities.functions][utilities.functions] • general use functions
 
 [utilities.functions]: https://github.com/plurid/utilities/tree/master/packages/functions
+
+
+
+<a target="_blank" href="https://www.npmjs.com/package/@plurid/utilities.styled.react">
+    <img src="https://img.shields.io/npm/v/@plurid/utilities.styled.react.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
+</a>
+
+[@plurid/utilities.styled.react][utilities.styled.react]
+
+[utilities.styled.react]: https://github.com/plurid/utilities/tree/master/packages/styled.react
+
+
+
+<a target="_blank" href="https://www.npmjs.com/package/@plurid/utilities.themes">
+    <img src="https://img.shields.io/npm/v/@plurid/utilities.themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
+</a>
+
+[@plurid/utilities.themes][utilities.themes]
+
+[utilities.themes]: https://github.com/plurid/utilities/tree/master/packages/themes
