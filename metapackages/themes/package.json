@@ -1,6 +1,6 @@
 {
     "name": "@plurid/utilities.themes",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Themes for Plurid Apps",
     "keywords": [
         "plurid",
@@ -19,7 +19,6 @@
     },
     "homepage": "https://github.com/plurid/utilities",
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/",
         "access": "public"
     },
     "files": [
