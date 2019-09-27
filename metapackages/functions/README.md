@@ -1,1 +1,1 @@
-# Plurid Apps Utility Functions
+# Plurid Utility Functions
