@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/plurid/utilities",
     "publishConfig": {
+        "registry": "https://npm.pkg.github.com/",
         "access": "public"
     },
     "files": [
