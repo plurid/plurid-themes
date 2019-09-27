@@ -32,26 +32,23 @@
         "npm": ">=5"
     },
     "scripts": {
-        "clean": "rm -rf ./dist",
-        "build": "yarn clean && yarn build.prod",
-        "build.prod": "rollup -c --environment BUILD:production",
-        "build.dev": "yarn clean && rollup -c",
-        "start": "yarn clean && rollup -c -w",
         "spec": "jest",
+        "lint": "eslint ./src/index.ts",
+        "clean": "rm -rf ./dist",
+        "start": "yarn clean && rollup -c -w",
+        "build.dev": "yarn clean && rollup -c",
+        "build.prod": "rollup -c --environment BUILD:production",
+        "build": "yarn clean && yarn lint && yarn spec && yarn build.prod",
         "prepublishOnly": "yarn build"
     },
     "devDependencies": {
-        "@svgr/rollup": "^4.3.3",
         "@types/jest": "^24.0.18",
+        "@typescript-eslint/eslint-plugin": "^2.3.1",
+        "@typescript-eslint/parser": "^2.3.1",
+        "eslint": "^6.4.0",
         "jest": "^24.9.0",
         "rollup": "^1.21.4",
-        "rollup-plugin-babel": "^4.3.3",
-        "rollup-plugin-commonjs": "^10.1.0",
-        "rollup-plugin-node-resolve": "^5.2.0",
-        "rollup-plugin-peer-deps-external": "^2.2.0",
-        "rollup-plugin-postcss": "^2.0.3",
         "rollup-plugin-typescript2": "^0.24.3",
-        "rollup-plugin-url": "^2.2.2",
         "ts-jest": "^24.1.0",
         "typescript": "^3.6.3"
     }
