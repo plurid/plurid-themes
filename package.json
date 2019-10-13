@@ -22,11 +22,11 @@
         "access": "public"
     },
     "files": [
-        "dist/"
+        "build/"
     ],
-    "main": "dist/index.js",
-    "module": "dist/index.es.js",
-    "jsnext:main": "dist/index.es.js",
+    "main": "build/index.js",
+    "module": "build/index.es.js",
+    "jsnext:main": "build/index.es.js",
     "engines": {
         "node": ">=8",
         "npm": ">=5"
@@ -34,7 +34,7 @@
     "scripts": {
         "spec": "jest",
         "lint": "eslint ./source/index.ts",
-        "clean": "rm -rf ./dist",
+        "clean": "rm -rf ./build",
         "start": "yarn clean && rollup -c -w",
         "build.dev": "yarn clean && rollup -c",
         "build.prod": "rollup -c --environment BUILD:production",
