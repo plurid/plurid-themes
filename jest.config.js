@@ -34,6 +34,6 @@ module.exports = {
         // }
     },
     collectCoverageFrom: [
-        'src/*.{js,ts}'
+        'source/*.{js,ts}'
     ]
 }
