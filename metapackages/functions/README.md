@@ -1,1 +1,0 @@
-# Plurid Utility Functions

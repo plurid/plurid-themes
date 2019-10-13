@@ -1,44 +1,95 @@
+<h1 align="center">
+    Plurid Themes
+</h1>
+
 <p align="center">
-    <img src="https://raw.githubusercontent.com/plurid/plurid/master/about/identity/plurid-p-logo.png" height="250px">
-    <br />
-    <a target="_blank" href="https://github.com/plurid/utilities/blob/master/LICENSE">
+    <a target="_blank" href="https://www.npmjs.com/package/@plurid/plurid-themes">
+        <img src="https://img.shields.io/npm/v/@plurid/plurid-themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
+    </a>
+    <a target="_blank" href="https://github.com/plurid/plurid-themes/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/license-MIT-blue.svg?colorB=1380C3&style=for-the-badge" alt="License: MIT">
     </a>
 </p>
 
 
-<h1 align="center">
-    plurid' utilities
-</h1>
+
+There are four shade-oriented base themes, three color-oriented base themes, and multiple `plurid`-oriented product themes.
+
+The four shade-oriented base themes consist of:
+
++ `night`
++ `dusk`
++ `dawn`
++ `light`
+
+where the lightness increases from the `night` to `light`,
+
+and the three color-oriented base themes are:
+
++ `ponton` - blue-based
++ `jaune` - yellow-based
++ `furor` - red-based.
+
+The four shade-oriented base themes are inspired by [radical-style-interfaces](https://github.com/plurid/radical-style-interfaces).
+
+A theme can be further more classified based on the theme `type` (`dark` or `bright`). A `dark` theme will have the primary color darker than the secondary color, whereas a `bright` theme will have the primary color brighter than the secondary color.
 
 
-
-## Packages
-
-<a target="_blank" href="https://www.npmjs.com/package/@plurid/utilities.functions">
-    <img src="https://img.shields.io/npm/v/@plurid/utilities.functions.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
-</a>
-
-[@plurid/utilities.functions][utilities.functions] • general use functions
-
-[utilities.functions]: https://github.com/plurid/utilities/tree/master/metapackages/functions
+## [Demo](https://plurid-themes.netlify.com/)
 
 
+## Usage
 
-<a target="_blank" href="https://www.npmjs.com/package/@plurid/utilities.styled.react">
-    <img src="https://img.shields.io/npm/v/@plurid/utilities.styled.react.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
-</a>
+The themes are intended to be used for `CSS-in-JS` styling along with `react`, `styled-components`, or other packages.
 
-[@plurid/utilities.styled.react][utilities.styled.react]
+    interface Theme {
+        type: "dark" | "bright";
+        name: "generated" | "night" | "dusk" | "dawn" | "light"
+            | "ponton" | "jaune" | "furor"
+            | "plurid" | "depict" | "deview";
 
-[utilities.styled.react]: https://github.com/plurid/utilities/tree/master/metapackages/styled/react
+        baseColor: string;
+        baseColorInverted: string;
+
+        backgroundColorDark: string;
+        backgroundColorBright: string;
+
+        backgroundColorPrimary: string;
+        backgroundColorPrimaryAlpha: string;
+        backgroundColorPrimaryInverted: string;
+
+        backgroundColorSecondary: string;
+        backgroundColorSecondaryAlpha: string;
+        backgroundColorSecondaryInverted: string;
+
+        backgroundColorTertiary: string;
+        backgroundColorTertiaryAlpha: string;
+        backgroundColorTertiaryInverted: string;
+
+        backgroundColorQuaternary: string;
+        backgroundColorQuaternaryAlpha: string;
+        backgroundColorQuaternaryInverted: string;
 
 
+        colorPrimary: string;
+        colorPrimaryInverted: string;
 
-<a target="_blank" href="https://www.npmjs.com/package/@plurid/utilities.themes">
-    <img src="https://img.shields.io/npm/v/@plurid/utilities.themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
-</a>
+        colorSecondary: string;
+        colorSecondaryInverted: string;
 
-[@plurid/utilities.themes][utilities.themes]
+        colorTertiary: string;
+        colorTertiaryInverted: string;
 
-[utilities.themes]: https://github.com/plurid/utilities/tree/master/metapackages/themes
+
+        boxShadowUmbra: string;
+        boxShadowUmbraColor: string;
+        boxShadowUmbraInset: string;
+
+        boxShadowPenumbra: string;
+        boxShadowPenumbraColor: string;
+        boxShadowPenumbraInset: string;
+
+        boxShadowAntumbra: string;
+        boxShadowAntumbraColor: string;
+        boxShadowAntumbraInset: string;
+    }
