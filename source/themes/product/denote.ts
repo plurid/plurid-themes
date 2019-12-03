@@ -13,49 +13,49 @@ const denote: Theme = {
     type: THEME_TYPE_DARK,
     name: THEME_NAME_DENOTE,
 
-    baseColor: 'hsl(240, 13%, 16%)',
-    baseColorInverted: 'hsl(240, 13%, 84%)',
+    baseColor: 'hsl(259, 59%, 34%)',
+    baseColorInverted: 'hsl(259, 59%, 66%)',
 
-    backgroundColorDark: 'hsl(240, 13%, 10%)',
-    backgroundColorBright: 'hsl(240, 13%, 90%)',
+    backgroundColorDark: 'hsl(259, 59%, 10%)',
+    backgroundColorBright: 'hsl(259, 59%, 90%)',
 
-    backgroundColorPrimary: 'hsl(240, 13%, 16%)',
-    backgroundColorPrimaryAlpha: 'hsla(240, 13%, 16%, 0.4)',
-    backgroundColorPrimaryInverted: 'hsl(240, 13%, 84%)',
+    backgroundColorPrimary: 'hsl(259, 59%, 34%)',
+    backgroundColorPrimaryAlpha: 'hsla(259, 59%, 34%, 0.4)',
+    backgroundColorPrimaryInverted: 'hsl(259, 59%, 66%)',
 
-    backgroundColorSecondary: 'hsl(240, 13%, 30%)',
-    backgroundColorSecondaryAlpha: 'hsla(240, 13%, 30%, 0.4)',
-    backgroundColorSecondaryInverted: 'hsl(240, 13%, 70%)',
+    backgroundColorSecondary: 'hsl(259, 59%, 30%)',
+    backgroundColorSecondaryAlpha: 'hsla(259, 59%, 30%, 0.4)',
+    backgroundColorSecondaryInverted: 'hsl(259, 59%, 70%)',
 
-    backgroundColorTertiary: 'hsl(240, 13%, 37%)',
-    backgroundColorTertiaryAlpha: 'hsla(240, 13%, 37%, 0.4)',
-    backgroundColorTertiaryInverted: 'hsl(240, 13%, 63%)',
+    backgroundColorTertiary: 'hsl(259, 59%, 23%)',
+    backgroundColorTertiaryAlpha: 'hsla(259, 59%, 23%, 0.4)',
+    backgroundColorTertiaryInverted: 'hsl(259, 59%, 77%)',
 
-    backgroundColorQuaternary: 'hsl(240, 13%, 47%)',
-    backgroundColorQuaternaryAlpha: 'hsla(240, 13%, 47%, 0.4)',
-    backgroundColorQuaternaryInverted: 'hsl(240, 13%, 53%)',
+    backgroundColorQuaternary: 'hsl(259, 59%, 17%)',
+    backgroundColorQuaternaryAlpha: 'hsla(259, 59%, 17%, 0.4)',
+    backgroundColorQuaternaryInverted: 'hsl(259, 59%, 83%)',
 
-    colorPrimary: 'hsl(240, 7%, 97%)',
-    colorPrimaryInverted: 'hsl(240, 7%, 3%)',
+    colorPrimary: 'hsl(259, 59%, 97%)',
+    colorPrimaryInverted: 'hsl(259, 59%, 3%)',
 
-    colorSecondary: 'hsl(240, 7%, 77%)',
-    colorSecondaryInverted: 'hsl(240, 7%, 23%)',
+    colorSecondary: 'hsl(259, 59%, 77%)',
+    colorSecondaryInverted: 'hsl(259, 59%, 23%)',
 
-    colorTertiary: 'hsl(240, 7%, 67%)',
-    colorTertiaryInverted: 'hsl(240, 7%, 33%)',
+    colorTertiary: 'hsl(259, 59%, 67%)',
+    colorTertiaryInverted: 'hsl(259, 59%, 33%)',
 
 
-    boxShadowUmbra: '0px 3px 6px 0px hsla(240, 13%, 10%, 0.8)',
-    boxShadowUmbraColor: 'hsla(240, 13%, 10%, 0.8)',
-    boxShadowUmbraInset: 'inset 0px -3px 4px 0px hsla(240, 13%, 10%, 0.9)',
+    boxShadowUmbra: '0px 3px 6px 0px hsla(259, 59%, 10%, 0.8)',
+    boxShadowUmbraColor: 'hsla(259, 59%, 10%, 0.8)',
+    boxShadowUmbraInset: 'inset 0px -3px 4px 0px hsla(259, 59%, 10%, 0.9)',
 
-    boxShadowPenumbra: '0px 3px 12px 0px hsla(240, 13%, 10%, 0.8)',
-    boxShadowPenumbraColor: 'hsla(240, 13%, 10%, 0.8)',
-    boxShadowPenumbraInset: 'inset 0px -3px 6px 0px hsla(240, 13%, 10%, 0.9)',
+    boxShadowPenumbra: '0px 3px 12px 0px hsla(259, 59%, 10%, 0.8)',
+    boxShadowPenumbraColor: 'hsla(259, 59%, 10%, 0.8)',
+    boxShadowPenumbraInset: 'inset 0px -3px 6px 0px hsla(259, 59%, 10%, 0.9)',
 
-    boxShadowAntumbra: '0px 3px 18px 0px hsla(240, 13%, 10%, 0.8)',
-    boxShadowAntumbraColor: 'hsla(240, 13%, 10%, 0.8)',
-    boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(240, 13%, 10%, 0.9)',
+    boxShadowAntumbra: '0px 3px 18px 0px hsla(259, 59%, 10%, 0.8)',
+    boxShadowAntumbraColor: 'hsla(259, 59%, 10%, 0.8)',
+    boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(259, 59%, 10%, 0.9)',
 };
 
 
