@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Theme } from '@plurid/apps.utilities.themes';
+import { Theme } from '@plurid/plurid-themes';
 
 
 

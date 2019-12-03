@@ -2,7 +2,7 @@ import React from 'react';
 
 import Stripe from '../Stripe';
 
-import { Theme } from '@plurid/apps.utilities.themes';
+import { Theme } from '@plurid/plurid-themes';
 
 
 
