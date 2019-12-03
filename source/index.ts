@@ -7,6 +7,10 @@ import {
     Theme,
 } from './interfaces';
 
+import {
+    decomposeColor,
+} from './utilities';
+
 import generateTheme from './themes/generate';
 
 import night from './themes/base/night';
@@ -19,24 +23,26 @@ import jaune from './themes/base/jaune';
 import furor from './themes/base/furor';
 
 import plurid from './themes/product/plurid';
+import denote from './themes/product/denote';
 import depict from './themes/product/depict';
 import deview from './themes/product/deview';
 
 
 
 export {
-    // interfaces
+    /** interfaces */
     Theme,
 
-    // constants
+    /** constants */
     THEME_NAMES,
     THEME_TYPES,
 
-    // functions
+    /** functions */
     generateTheme,
+    decomposeColor,
 
-    // themes
-    // base
+    /** themes */
+    /** base */
     night,
     dusk,
     dawn,
@@ -46,8 +52,9 @@ export {
     jaune,
     furor,
 
-    // product
+    /** product */
     plurid,
+    denote,
     depict,
     deview,
 }
@@ -64,6 +71,7 @@ const themes = {
     furor,
 
     plurid,
+    denote,
     depict,
     deview,
 };

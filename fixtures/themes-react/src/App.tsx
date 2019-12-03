@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import themes, { Theme } from '@plurid/apps.utilities.themes';
+import themes, { Theme } from '@plurid/plurid-themes';
 
 import ThemePicker from './components/ThemePicker';
 import Options from './components/Options';

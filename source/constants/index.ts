@@ -14,6 +14,7 @@ export const THEME_NAME_JAUNE = 'jaune';
 export const THEME_NAME_FUROR = 'furor';
 
 export const THEME_NAME_PLURID = 'plurid';
+export const THEME_NAME_DENOTE = 'denote';
 export const THEME_NAME_DEPICT = 'depict';
 export const THEME_NAME_DEVIEW = 'deview';
 
@@ -36,6 +37,7 @@ export const THEME_NAMES = {
     furor: THEME_NAME_FUROR,
 
     plurid: THEME_NAME_PLURID,
+    denote: THEME_NAME_DENOTE,
     depict: THEME_NAME_DEPICT,
     deview: THEME_NAME_DEVIEW,
 }
