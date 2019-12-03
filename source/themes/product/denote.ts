@@ -13,27 +13,27 @@ const denote: Theme = {
     type: THEME_TYPE_DARK,
     name: THEME_NAME_DENOTE,
 
-    baseColor: 'hsl(259, 59%, 17%)',
-    baseColorInverted: 'hsl(259, 59%, 83%)',
+    baseColor: 'hsl(259, 59%, 20%)',
+    baseColorInverted: 'hsl(259, 59%, 80%)',
 
     backgroundColorDark: 'hsl(259, 59%, 10%)',
     backgroundColorBright: 'hsl(259, 59%, 90%)',
 
-    backgroundColorPrimary: 'hsl(259, 59%, 17%)',
-    backgroundColorPrimaryAlpha: 'hsla(259, 59%, 17%, 0.4)',
-    backgroundColorPrimaryInverted: 'hsl(259, 59%, 83%)',
+    backgroundColorPrimary: 'hsl(259, 59%, 20%)',
+    backgroundColorPrimaryAlpha: 'hsla(259, 59%, 20%, 0.4)',
+    backgroundColorPrimaryInverted: 'hsl(259, 59%, 80%)',
 
-    backgroundColorSecondary: 'hsl(259, 59%, 23%)',
-    backgroundColorSecondaryAlpha: 'hsla(259, 59%, 23%, 0.4)',
-    backgroundColorSecondaryInverted: 'hsl(259, 59%, 77%)',
+    backgroundColorSecondary: 'hsl(259, 59%, 27%)',
+    backgroundColorSecondaryAlpha: 'hsla(259, 59%, 27%, 0.4)',
+    backgroundColorSecondaryInverted: 'hsl(259, 59%, 73%)',
 
-    backgroundColorTertiary: 'hsl(259, 59%, 30%)',
-    backgroundColorTertiaryAlpha: 'hsla(259, 59%, 30%, 0.4)',
-    backgroundColorTertiaryInverted: 'hsl(259, 59%, 70%)',
+    backgroundColorTertiary: 'hsl(259, 59%, 35%)',
+    backgroundColorTertiaryAlpha: 'hsla(259, 59%, 35%, 0.4)',
+    backgroundColorTertiaryInverted: 'hsl(259, 59%, 75%)',
 
-    backgroundColorQuaternary: 'hsl(259, 59%, 34%)',
-    backgroundColorQuaternaryAlpha: 'hsla(259, 59%, 34%, 0.4)',
-    backgroundColorQuaternaryInverted: 'hsl(259, 59%, 66%)',
+    backgroundColorQuaternary: 'hsl(259, 59%, 44%)',
+    backgroundColorQuaternaryAlpha: 'hsla(259, 59%, 44%, 0.4)',
+    backgroundColorQuaternaryInverted: 'hsl(259, 59%, 56%)',
 
     colorPrimary: 'hsl(259, 59%, 97%)',
     colorPrimaryInverted: 'hsl(259, 59%, 3%)',
