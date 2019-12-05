@@ -20,12 +20,12 @@ const deveil: Theme = {
     backgroundColorBright: 'hsl(240, 73%, 90%)',
 
     backgroundColorPrimary: 'hsl(240, 73%, 20%)',
-    backgroundColorPrimaryAlpha: 'hsla(240, 73%, 30%, 0.4)',
+    backgroundColorPrimaryAlpha: 'hsla(240, 73%, 32%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(240, 73%, 80%)',
 
     backgroundColorSecondary: 'hsl(240, 73%, 32%)',
     backgroundColorSecondaryAlpha: 'hsla(240, 73%, 32%, 0.4)',
-    backgroundColorSecondaryInverted: 'hsl(240, 73%, 78%)',
+    backgroundColorSecondaryInverted: 'hsl(240, 73%, 68%)',
 
     backgroundColorTertiary: 'hsl(240, 73%, 44%)',
     backgroundColorTertiaryAlpha: 'hsla(240, 73%, 44%, 0.4)',
