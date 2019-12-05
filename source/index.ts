@@ -25,6 +25,7 @@ import furor from './themes/base/furor';
 import plurid from './themes/product/plurid';
 import denote from './themes/product/denote';
 import depict from './themes/product/depict';
+import deveil from './themes/product/deveil';
 import deview from './themes/product/deview';
 
 
@@ -56,6 +57,7 @@ export {
     plurid,
     denote,
     depict,
+    deveil,
     deview,
 }
 
@@ -73,6 +75,7 @@ const themes = {
     plurid,
     denote,
     depict,
+    deveil,
     deview,
 };
 
