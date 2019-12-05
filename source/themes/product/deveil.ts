@@ -13,23 +13,23 @@ const deveil: Theme = {
     type: THEME_TYPE_DARK,
     name: THEME_NAME_DEVEIL,
 
-    baseColor: 'hsl(240, 73%, 30%)',
-    baseColorInverted: 'hsl(240, 73%, 70%)',
+    baseColor: 'hsl(240, 73%, 20%)',
+    baseColorInverted: 'hsl(240, 73%, 80%)',
 
     backgroundColorDark: 'hsl(240, 73%, 10%)',
     backgroundColorBright: 'hsl(240, 73%, 90%)',
 
-    backgroundColorPrimary: 'hsl(240, 73%, 30%)',
+    backgroundColorPrimary: 'hsl(240, 73%, 20%)',
     backgroundColorPrimaryAlpha: 'hsla(240, 73%, 30%, 0.4)',
-    backgroundColorPrimaryInverted: 'hsl(240, 73%, 70%)',
+    backgroundColorPrimaryInverted: 'hsl(240, 73%, 80%)',
 
-    backgroundColorSecondary: 'hsl(240, 73%, 37%)',
-    backgroundColorSecondaryAlpha: 'hsla(240, 73%, 37%, 0.4)',
-    backgroundColorSecondaryInverted: 'hsl(240, 73%, 73%)',
+    backgroundColorSecondary: 'hsl(240, 73%, 32%)',
+    backgroundColorSecondaryAlpha: 'hsla(240, 73%, 32%, 0.4)',
+    backgroundColorSecondaryInverted: 'hsl(240, 73%, 78%)',
 
-    backgroundColorTertiary: 'hsl(240, 73%, 45%)',
-    backgroundColorTertiaryAlpha: 'hsla(240, 73%, 45%, 0.4)',
-    backgroundColorTertiaryInverted: 'hsl(240, 73%, 55%)',
+    backgroundColorTertiary: 'hsl(240, 73%, 44%)',
+    backgroundColorTertiaryAlpha: 'hsla(240, 73%, 44%, 0.4)',
+    backgroundColorTertiaryInverted: 'hsl(240, 73%, 56%)',
 
     backgroundColorQuaternary: 'hsl(240, 73%, 55%)',
     backgroundColorQuaternaryAlpha: 'hsla(240, 73%, 55%, 0.4)',
