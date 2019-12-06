@@ -27,6 +27,7 @@ import denote from './themes/product/denote';
 import depict from './themes/product/depict';
 import deveil from './themes/product/deveil';
 import deview from './themes/product/deview';
+import dewiki from './themes/product/dewiki';
 
 
 
@@ -59,6 +60,7 @@ export {
     depict,
     deveil,
     deview,
+    dewiki,
 }
 
 
@@ -77,6 +79,7 @@ const themes = {
     depict,
     deveil,
     deview,
+    dewiki,
 };
 
 export default themes;

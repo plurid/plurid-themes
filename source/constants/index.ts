@@ -18,6 +18,7 @@ export const THEME_NAME_DENOTE = 'denote';
 export const THEME_NAME_DEPICT = 'depict';
 export const THEME_NAME_DEVEIL = 'deveil';
 export const THEME_NAME_DEVIEW = 'deview';
+export const THEME_NAME_DEWIKI = 'dewiki';
 
 
 export const THEME_TYPES = {
@@ -42,4 +43,5 @@ export const THEME_NAMES = {
     depict: THEME_NAME_DEPICT,
     deveil: THEME_NAME_DEVEIL,
     deview: THEME_NAME_DEVIEW,
+    dewiki: THEME_NAME_DEWIKI,
 }
