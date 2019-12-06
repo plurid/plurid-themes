@@ -13,27 +13,27 @@ const dewiki: Theme = {
     type: THEME_TYPE_DARK,
     name: THEME_NAME_DEWIKI,
 
-    baseColor: 'hsl(0, 81%, 33%)',
-    baseColorInverted: 'hsl(0, 81%, 67%)',
+    baseColor: 'hsl(0, 81%, 23%)',
+    baseColorInverted: 'hsl(0, 81%, 77%)',
 
     backgroundColorDark: 'hsl(0, 81%, 10%)',
     backgroundColorBright: 'hsl(0, 81%, 90%)',
 
-    backgroundColorPrimary: 'hsl(0, 81%, 33%)',
-    backgroundColorPrimaryAlpha: 'hsla(0, 81%, 33%, 0.4)',
-    backgroundColorPrimaryInverted: 'hsl(0, 81%, 67%)',
+    backgroundColorPrimary: 'hsl(0, 81%, 23%)',
+    backgroundColorPrimaryAlpha: 'hsla(0, 81%, 23%, 0.4)',
+    backgroundColorPrimaryInverted: 'hsl(0, 81%, 77%)',
 
-    backgroundColorSecondary: 'hsl(0, 81%, 43%)',
-    backgroundColorSecondaryAlpha: 'hsla(0, 81%, 43%, 0.4)',
-    backgroundColorSecondaryInverted: 'hsl(0, 81%, 57%)',
+    backgroundColorSecondary: 'hsl(0, 81%, 30%)',
+    backgroundColorSecondaryAlpha: 'hsla(0, 81%, 30%, 0.4)',
+    backgroundColorSecondaryInverted: 'hsl(0, 81%, 70%)',
 
-    backgroundColorTertiary: 'hsl(0, 81%, 52%)',
-    backgroundColorTertiaryAlpha: 'hsla(0, 81%, 52%, 0.4)',
-    backgroundColorTertiaryInverted: 'hsl(0, 81%, 48%)',
+    backgroundColorTertiary: 'hsl(0, 81%, 40%)',
+    backgroundColorTertiaryAlpha: 'hsla(0, 81%, 40%, 0.4)',
+    backgroundColorTertiaryInverted: 'hsl(0, 81%, 04%)',
 
-    backgroundColorQuaternary: 'hsl(0, 81%, 60%)',
-    backgroundColorQuaternaryAlpha: 'hsla(0, 81%, 60%, 0.4)',
-    backgroundColorQuaternaryInverted: 'hsl(0, 81%, 40%)',
+    backgroundColorQuaternary: 'hsl(0, 81%, 50%)',
+    backgroundColorQuaternaryAlpha: 'hsla(0, 81%, 50%, 0.4)',
+    backgroundColorQuaternaryInverted: 'hsl(0, 81%, 50%)',
 
     colorPrimary: 'hsl(0, 7%, 97%)',
     colorPrimaryInverted: 'hsl(0, 7%, 3%)',
