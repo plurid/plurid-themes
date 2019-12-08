@@ -37,6 +37,7 @@ const App: React.FC = () => {
                 />
 
                 <Options
+                    theme={theme}
                     viewMain={viewMain}
                     setViewMain={setViewMain}
                 />
