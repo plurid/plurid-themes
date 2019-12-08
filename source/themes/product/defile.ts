@@ -3,15 +3,15 @@ import {
 } from '../../';
 
 import {
-    THEME_NAME_DELEAF,
+    THEME_NAME_DEFILE,
     THEME_TYPE_DARK,
 } from '../../constants';
 
 
 
-const deleaf: Theme = {
+const defile: Theme = {
     type: THEME_TYPE_DARK,
-    name: THEME_NAME_DELEAF,
+    name: THEME_NAME_DEFILE,
 
     baseColor: 'hsl(280, 73%, 23%)',
     baseColorInverted: 'hsl(280, 73%, 77%)',
@@ -59,4 +59,4 @@ const deleaf: Theme = {
 };
 
 
-export default deleaf;
+export default defile;
