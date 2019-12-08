@@ -23,8 +23,13 @@ import jaune from './themes/base/jaune';
 import furor from './themes/base/furor';
 
 import plurid from './themes/product/plurid';
+import decode from './themes/product/decode';
+import deleaf from './themes/product/deleaf';
 import denote from './themes/product/denote';
 import depict from './themes/product/depict';
+import deself from './themes/product/deself';
+import detime from './themes/product/detime';
+import deturn from './themes/product/deturn';
 import deveil from './themes/product/deveil';
 import deview from './themes/product/deview';
 import dewiki from './themes/product/dewiki';
@@ -56,8 +61,13 @@ export {
 
     /** product */
     plurid,
+    decode,
+    deleaf,
     denote,
     depict,
+    deself,
+    detime,
+    deturn,
     deveil,
     deview,
     dewiki,
@@ -75,8 +85,13 @@ const themes = {
     furor,
 
     plurid,
+    decode,
+    deleaf,
     denote,
     depict,
+    deself,
+    detime,
+    deturn,
     deveil,
     deview,
     dewiki,
