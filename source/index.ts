@@ -24,7 +24,9 @@ import furor from './themes/base/furor';
 
 import plurid from './themes/product/plurid';
 import decode from './themes/product/decode';
+import defile from './themes/product/defile';
 import deleaf from './themes/product/deleaf';
+import demail from './themes/product/demail';
 import denote from './themes/product/denote';
 import depict from './themes/product/depict';
 import deself from './themes/product/deself';
@@ -62,7 +64,9 @@ export {
     /** product */
     plurid,
     decode,
+    defile,
     deleaf,
+    demail,
     denote,
     depict,
     deself,
@@ -86,7 +90,9 @@ const themes = {
 
     plurid,
     decode,
+    defile,
     deleaf,
+    demail,
     denote,
     depict,
     deself,

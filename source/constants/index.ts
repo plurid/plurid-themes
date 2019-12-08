@@ -19,7 +19,9 @@ export const THEME_NAME_FUROR = 'furor';
 
 export const THEME_NAME_PLURID = 'plurid';
 export const THEME_NAME_DECODE = 'decode';
+export const THEME_NAME_DEFILE = 'defile';
 export const THEME_NAME_DELEAF = 'deleaf';
+export const THEME_NAME_DEMAIL = 'demail';
 export const THEME_NAME_DENOTE = 'denote';
 export const THEME_NAME_DEPICT = 'depict';
 export const THEME_NAME_DESELF = 'deself';
@@ -51,7 +53,9 @@ export const THEME_NAMES = {
 
     plurid: THEME_NAME_PLURID,
     decode: THEME_NAME_DECODE,
+    defile: THEME_NAME_DEFILE,
     deleaf: THEME_NAME_DELEAF,
+    demail: THEME_NAME_DEMAIL,
     denote: THEME_NAME_DENOTE,
     depict: THEME_NAME_DEPICT,
     deself: THEME_NAME_DESELF,
