@@ -1761,10 +1761,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@plurid/plurid-themes@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-themes/-/plurid-themes-0.1.14.tgz#da1da35937c71f9f6f51f9aba9a6223cc4721d8b"
-  integrity sha512-RljanNkPRMzLz2CwYCUBqgXaNI4iQaDM7wglrdqv3M/uF769ngDF3lYPayMnNkFwGl2rdDs9infbPXDzBttRIg==
+"@plurid/plurid-themes@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-themes/-/plurid-themes-0.1.15.tgz#5cd17fd46c748104ada3f2933eff1a48fa1939c0"
+  integrity sha512-ZLVs+rkc5sWBDP2MT6Qb5wmB+XoR3VuezaAFMe9YWrnxYy3056GtK9tGnSu6gEwag+vp9WD9tzW25vdeqoj6sw==
 
 "@plurid/plurid-ui-react@^0.1.32":
   version "0.1.32"
