@@ -43,7 +43,7 @@ const ThemePicker: React.FC<ThemePickerProperties> = (properties) => {
                         padding: 0,
                         margin: '0px auto',
                         display: 'flex',
-                        // width: '100px',
+                        // width: '400px',
                         // overflow: 'auto',
                     }}
                 >
