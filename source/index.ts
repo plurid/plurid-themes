@@ -30,7 +30,9 @@ import demail from './themes/product/demail';
 import denote from './themes/product/denote';
 import depict from './themes/product/depict';
 import deself from './themes/product/deself';
+import desky from './themes/product/desky';
 import detime from './themes/product/detime';
+import detune from './themes/product/detune';
 import deturn from './themes/product/deturn';
 import deveil from './themes/product/deveil';
 import deview from './themes/product/deview';
@@ -70,7 +72,9 @@ export {
     denote,
     depict,
     deself,
+    desky,
     detime,
+    detune,
     deturn,
     deveil,
     deview,
@@ -96,7 +100,9 @@ const themes = {
     denote,
     depict,
     deself,
+    desky,
     detime,
+    detune,
     deturn,
     deveil,
     deview,
