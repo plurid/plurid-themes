@@ -30,6 +30,7 @@ import demail from './themes/product/demail';
 import denote from './themes/product/denote';
 import depict from './themes/product/depict';
 import deself from './themes/product/deself';
+import desit from './themes/product/desit';
 import desky from './themes/product/desky';
 import detime from './themes/product/detime';
 import detune from './themes/product/detune';
@@ -64,7 +65,6 @@ export {
     furor,
 
     /** product */
-    plurid,
     decode,
     defile,
     deleaf,
@@ -72,6 +72,7 @@ export {
     denote,
     depict,
     deself,
+    desit,
     desky,
     detime,
     detune,
@@ -79,6 +80,8 @@ export {
     deveil,
     deview,
     dewiki,
+
+    plurid,
 }
 
 
@@ -92,7 +95,6 @@ const themes = {
     jaune,
     furor,
 
-    plurid,
     decode,
     defile,
     deleaf,
@@ -100,6 +102,7 @@ const themes = {
     denote,
     depict,
     deself,
+    desit,
     desky,
     detime,
     detune,
@@ -107,6 +110,8 @@ const themes = {
     deveil,
     deview,
     dewiki,
+
+    plurid,
 };
 
 export default themes;
