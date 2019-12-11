@@ -13,8 +13,8 @@ describe('parseHSL', () => {
         expect(result).toBeInstanceOf(HSLColor);
 
         if (result) {
-            expect(result.saturation()).toBe(223);
-            expect(result.hue()).toBe(35);
+            expect(result.hue()).toBe(223);
+            expect(result.saturation()).toBe(35);
             expect(result.lightness()).toBe(13);
         }
     });
