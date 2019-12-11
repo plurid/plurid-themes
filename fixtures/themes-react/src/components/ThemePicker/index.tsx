@@ -43,8 +43,8 @@ const ThemePicker: React.FC<ThemePickerProperties> = (properties) => {
                         padding: 0,
                         margin: '0px auto',
                         display: 'flex',
-                        // width: '400px',
-                        // overflow: 'auto',
+                        width: '1200px',
+                        overflow: 'auto',
                     }}
                 >
                     {themeNames.map((themeName: any) => {
