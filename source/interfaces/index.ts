@@ -4,6 +4,7 @@ import {
 } from '../constants';
 
 
+
 export interface Theme {
     type: keyof typeof THEME_TYPES;
     name: keyof typeof THEME_NAMES;

@@ -1,6 +1,6 @@
 import {
     Theme,
-} from '../../';
+} from '../../interfaces';
 
 import {
     THEME_NAME_DEVIEW,
