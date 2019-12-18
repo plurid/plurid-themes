@@ -17,7 +17,6 @@ export const THEME_NAME_JAUNE = 'jaune';
 export const THEME_NAME_FUROR = 'furor';
 
 
-export const THEME_NAME_PLURID = 'plurid';
 export const THEME_NAME_DECODE = 'decode';
 export const THEME_NAME_DEFILE = 'defile';
 export const THEME_NAME_DELEAF = 'deleaf';
@@ -34,6 +33,8 @@ export const THEME_NAME_DETURN = 'deturn';
 export const THEME_NAME_DEVEIL = 'deveil';
 export const THEME_NAME_DEVIEW = 'deview';
 export const THEME_NAME_DEWIKI = 'dewiki';
+
+export const THEME_NAME_PLURID = 'plurid';
 
 
 
@@ -55,7 +56,6 @@ export const THEME_NAMES = {
     jaune: THEME_NAME_JAUNE,
     furor: THEME_NAME_FUROR,
 
-    plurid: THEME_NAME_PLURID,
     decode: THEME_NAME_DECODE,
     defile: THEME_NAME_DEFILE,
     deleaf: THEME_NAME_DELEAF,
@@ -72,4 +72,6 @@ export const THEME_NAMES = {
     deveil: THEME_NAME_DEVEIL,
     deview: THEME_NAME_DEVIEW,
     dewiki: THEME_NAME_DEWIKI,
+
+    plurid: THEME_NAME_PLURID,
 };
