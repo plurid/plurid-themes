@@ -22,7 +22,6 @@ import ponton from './themes/base/ponton';
 import jaune from './themes/base/jaune';
 import furor from './themes/base/furor';
 
-import plurid from './themes/product/plurid';
 import decode from './themes/product/decode';
 import defile from './themes/product/defile';
 import deleaf from './themes/product/deleaf';
@@ -39,6 +38,8 @@ import deturn from './themes/product/deturn';
 import deveil from './themes/product/deveil';
 import deview from './themes/product/deview';
 import dewiki from './themes/product/dewiki';
+
+import plurid from './themes/product/plurid';
 
 
 
