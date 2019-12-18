@@ -3,15 +3,15 @@ import {
 } from '../../interfaces';
 
 import {
-    THEME_NAME_DELEAF,
+    THEME_NAME_DELOOK,
     THEME_TYPE_DARK,
 } from '../../constants';
 
 
 
-const deleaf: Theme = {
+const delook: Theme = {
     type: THEME_TYPE_DARK,
-    name: THEME_NAME_DELEAF,
+    name: THEME_NAME_DELOOK,
 
     baseColor: 'hsl(141, 83%, 24%)',
     baseColorInverted: 'hsl(141, 83%, 76%)',
@@ -59,4 +59,4 @@ const deleaf: Theme = {
 };
 
 
-export default deleaf;
+export default delook;

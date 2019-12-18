@@ -26,6 +26,7 @@ import plurid from './themes/product/plurid';
 import decode from './themes/product/decode';
 import defile from './themes/product/defile';
 import deleaf from './themes/product/deleaf';
+import delook from './themes/product/delook';
 import demail from './themes/product/demail';
 import denote from './themes/product/denote';
 import depict from './themes/product/depict';
@@ -68,6 +69,7 @@ export {
     decode,
     defile,
     deleaf,
+    delook,
     demail,
     denote,
     depict,
@@ -98,6 +100,7 @@ const themes = {
     decode,
     defile,
     deleaf,
+    delook,
     demail,
     denote,
     depict,
