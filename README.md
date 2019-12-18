@@ -35,7 +35,7 @@ The four shade-oriented base themes are inspired by [radical-style-interfaces](h
 A theme can be further more classified based on the theme `type` (`dark` or `bright`). A `dark` theme will have the primary color darker than the secondary color, whereas a `bright` theme will have the primary color brighter than the secondary color.
 
 
-## [Demo](https://plurid-themes.netlify.com/)
+## [Demo](https://meta.plurid.com/themes)
 
 
 ## Usage
