@@ -23,17 +23,17 @@ const night: Theme = {
     backgroundColorPrimaryAlpha: 'hsla(220, 2%, 4%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(220, 2%, 96%)',
 
-    backgroundColorSecondary: 'hsl(220, 2%, 14%)',
-    backgroundColorSecondaryAlpha: 'hsla(220, 2%, 14%, 0.4)',
-    backgroundColorSecondaryInverted: 'hsl(220, 2%, 86%)',
+    backgroundColorSecondary: 'hsl(220, 2%, 9%)',
+    backgroundColorSecondaryAlpha: 'hsla(220, 2%, 9%, 0.4)',
+    backgroundColorSecondaryInverted: 'hsl(220, 2%, 91%)',
 
-    backgroundColorTertiary: 'hsl(220, 2%, 24%)',
-    backgroundColorTertiaryAlpha: 'hsla(220, 2%, 24%, 0.4)',
-    backgroundColorTertiaryInverted: 'hsl(220, 2%, 76%)',
+    backgroundColorTertiary: 'hsl(220, 2%, 14%)',
+    backgroundColorTertiaryAlpha: 'hsla(220, 2%, 14%, 0.4)',
+    backgroundColorTertiaryInverted: 'hsl(220, 2%, 86%)',
 
-    backgroundColorQuaternary: 'hsl(220, 2%, 34%)',
-    backgroundColorQuaternaryAlpha: 'hsla(220, 2%, 34%, 0.4)',
-    backgroundColorQuaternaryInverted: 'hsl(220, 2%, 66%)',
+    backgroundColorQuaternary: 'hsl(220, 2%, 19%)',
+    backgroundColorQuaternaryAlpha: 'hsla(220, 2%, 19%, 0.4)',
+    backgroundColorQuaternaryInverted: 'hsl(220, 2%, 81%)',
 
     colorPrimary: 'hsl(220, 2%, 87%)',
     colorPrimaryInverted: 'hsl(220, 2%, 13%)',
