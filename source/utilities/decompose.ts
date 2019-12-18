@@ -8,6 +8,7 @@ interface DecomposedColor {
     hue: number;
     saturation: number;
     lightness: number;
+    alpha: number;
 }
 
 
@@ -26,9 +27,19 @@ export const decomposeColor = (
         return;
     }
 
+    const hue = decomposed.hue();
+    const saturation = decomposed.saturation();
+    const lightness = decomposed.lightness();
+
+    const decomposedAlpha = decomposed.alpha();
+    const alpha = decomposedAlpha
+        ? decomposedAlpha
+        : 1;
+
     return {
-        hue: decomposed.hue(),
-        saturation: decomposed.saturation(),
-        lightness: decomposed.lightness(),
+        hue,
+        saturation,
+        lightness,
+        alpha,
     };
 }
