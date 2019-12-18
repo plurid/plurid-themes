@@ -60,6 +60,7 @@ export interface HSLColorClass {
     saturation: () => number;
     hue: () => number;
     lightness: () => number;
+    alpha: () => number | undefined;
     display: () => string;
 }
 

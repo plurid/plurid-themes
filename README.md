@@ -46,7 +46,11 @@ The themes are intended to be used for `CSS-in-JS` styling along with `react`, `
         type: "dark" | "bright";
         name: "generated" | "night" | "dusk" | "dawn" | "light"
             | "ponton" | "jaune" | "furor"
-            | "plurid" | "depict" | "deview";
+            | "plurid"
+            | "decode" | "defile" | "deleaf" | "delook"
+            | "demail" | "denote" | "depict" | "deself"
+            | "desit"  | "desky"  | "detime" | "detune"
+            | "deturn" | "deveil" | "deview" | "dewiki";
 
         baseColor: string;
         baseColorInverted: string;
@@ -93,3 +97,5 @@ The themes are intended to be used for `CSS-in-JS` styling along with `react`, `
         boxShadowAntumbraColor: string;
         boxShadowAntumbraInset: string;
     }
+
+A color can be decomposed into it's constituents (`hue`, `saturation`, `lightness`, `alpha`) using the `decomposeColor` utility function.

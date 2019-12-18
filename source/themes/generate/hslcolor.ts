@@ -18,19 +18,23 @@ class HSLColor implements HSLColorClass {
         this._alpha = colors.alpha;
     }
 
-    public saturation() {
+    public saturation(): number {
         return this._saturation;
     }
 
-    public hue() {
+    public hue(): number {
         return this._hue;
     }
 
-    public lightness() {
+    public lightness(): number {
         return this._lightness;
     }
 
-    public display() {
+    public alpha(): number | undefined {
+        return this._alpha;
+    }
+
+    public display(): string {
         if (this._alpha) {
             return `hsla(${this._saturation}, ${this._hue}%, ${this._lightness}%, ${this._alpha})`;
         }
