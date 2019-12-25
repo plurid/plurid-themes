@@ -42,14 +42,14 @@
         "prepublishOnly": "yarn build"
     },
     "devDependencies": {
-        "@types/jest": "^24.0.23",
-        "@typescript-eslint/eslint-plugin": "^2.12.0",
-        "@typescript-eslint/parser": "^2.12.0",
-        "eslint": "^6.7.2",
+        "@types/jest": "^24.0.24",
+        "@typescript-eslint/eslint-plugin": "^2.13.0",
+        "@typescript-eslint/parser": "^2.13.0",
+        "eslint": "^6.8.0",
         "jest": "^24.9.0",
-        "rollup": "^1.27.13",
+        "rollup": "^1.27.14",
         "rollup-plugin-typescript2": "^0.25.3",
         "ts-jest": "^24.2.0",
-        "typescript": "^3.7.3"
+        "typescript": "^3.7.4"
     }
 }
