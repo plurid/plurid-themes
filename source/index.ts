@@ -28,6 +28,7 @@ import deleaf from './themes/product/deleaf';
 import delook from './themes/product/delook';
 import demail from './themes/product/demail';
 import denote from './themes/product/denote';
+import depack from './themes/product/depack';
 import depict from './themes/product/depict';
 import deself from './themes/product/deself';
 import desit from './themes/product/desit';
@@ -73,6 +74,7 @@ export {
     delook,
     demail,
     denote,
+    depack,
     depict,
     deself,
     desit,
@@ -104,6 +106,7 @@ const themes = {
     delook,
     demail,
     denote,
+    depack,
     depict,
     deself,
     desit,

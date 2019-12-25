@@ -23,6 +23,7 @@ export const THEME_NAME_DELEAF = 'deleaf';
 export const THEME_NAME_DELOOK = 'delook';
 export const THEME_NAME_DEMAIL = 'demail';
 export const THEME_NAME_DENOTE = 'denote';
+export const THEME_NAME_DEPACK = 'depack';
 export const THEME_NAME_DEPICT = 'depict';
 export const THEME_NAME_DESELF = 'deself';
 export const THEME_NAME_DESIT = 'desit';
@@ -62,6 +63,7 @@ export const THEME_NAMES = {
     delook: THEME_NAME_DELOOK,
     demail: THEME_NAME_DEMAIL,
     denote: THEME_NAME_DENOTE,
+    depack: THEME_NAME_DEPACK,
     depict: THEME_NAME_DEPICT,
     deself: THEME_NAME_DESELF,
     desit: THEME_NAME_DESIT,
