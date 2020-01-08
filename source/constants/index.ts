@@ -21,12 +21,13 @@ export const THEME_NAME_DECODE = 'decode';
 export const THEME_NAME_DEFILE = 'defile';
 export const THEME_NAME_DELEAF = 'deleaf';
 export const THEME_NAME_DELOOK = 'delook';
+export const THEME_NAME_DELOSS = 'deloss';
 export const THEME_NAME_DEMAIL = 'demail';
 export const THEME_NAME_DENOTE = 'denote';
 export const THEME_NAME_DEPACK = 'depack';
 export const THEME_NAME_DEPICT = 'depict';
 export const THEME_NAME_DESELF = 'deself';
-export const THEME_NAME_DESIT = 'desit';
+export const THEME_NAME_DESITE = 'desite';
 export const THEME_NAME_DESKY = 'desky';
 export const THEME_NAME_DETIME = 'detime';
 export const THEME_NAME_DETUNE = 'detune';
@@ -61,12 +62,13 @@ export const THEME_NAMES = {
     defile: THEME_NAME_DEFILE,
     deleaf: THEME_NAME_DELEAF,
     delook: THEME_NAME_DELOOK,
+    deloss: THEME_NAME_DELOSS,
     demail: THEME_NAME_DEMAIL,
     denote: THEME_NAME_DENOTE,
     depack: THEME_NAME_DEPACK,
     depict: THEME_NAME_DEPICT,
     deself: THEME_NAME_DESELF,
-    desit: THEME_NAME_DESIT,
+    desite: THEME_NAME_DESITE,
     desky: THEME_NAME_DESKY,
     detime: THEME_NAME_DETIME,
     detune: THEME_NAME_DETUNE,

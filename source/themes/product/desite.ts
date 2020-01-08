@@ -3,15 +3,15 @@ import {
 } from '../../interfaces';
 
 import {
-    THEME_NAME_DESIT,
+    THEME_NAME_DESITE,
     THEME_TYPE_DARK,
 } from '../../constants';
 
 
 
-const desit: Theme = {
+const desite: Theme = {
     type: THEME_TYPE_DARK,
-    name: THEME_NAME_DESIT,
+    name: THEME_NAME_DESITE,
 
     baseColor: 'hsl(218, 30%, 22%)',
     baseColorInverted: 'hsl(218, 30%, 88%)',
@@ -59,4 +59,4 @@ const desit: Theme = {
 };
 
 
-export default desit;
+export default desite;
