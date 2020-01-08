@@ -26,12 +26,13 @@ import decode from './themes/product/decode';
 import defile from './themes/product/defile';
 import deleaf from './themes/product/deleaf';
 import delook from './themes/product/delook';
+import deloss from './themes/product/deloss';
 import demail from './themes/product/demail';
 import denote from './themes/product/denote';
 import depack from './themes/product/depack';
 import depict from './themes/product/depict';
 import deself from './themes/product/deself';
-import desit from './themes/product/desit';
+import desite from './themes/product/desite';
 import desky from './themes/product/desky';
 import detime from './themes/product/detime';
 import detune from './themes/product/detune';
@@ -72,12 +73,13 @@ export {
     defile,
     deleaf,
     delook,
+    deloss,
     demail,
     denote,
     depack,
     depict,
     deself,
-    desit,
+    desite,
     desky,
     detime,
     detune,
@@ -104,12 +106,13 @@ const themes = {
     defile,
     deleaf,
     delook,
+    deloss,
     demail,
     denote,
     depack,
     depict,
     deself,
-    desit,
+    desite,
     desky,
     detime,
     detune,
