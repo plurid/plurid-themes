@@ -49,10 +49,10 @@ The themes are intended to be used for `CSS-in-JS` styling along with `react`, `
             | "ponton" | "jaune" | "furor"
             | "plurid"
             | "decode" | "defile" | "deleaf" | "delook"
-            | "deloss" | "demail" | "denote" | "depict"
-            | "deself" | "desite" | "desky"  | "detime"
-            | "detune" | "deturn" | "deveil" | "deview"
-            | "dewiki";
+            | "deloss" | "demail" | "denote" | "depack"
+            | "depict" | "deself" | "desite" | "desky"
+            | "detime" | "detune" | "deturn" | "deveil"
+            | "deview" | "dewiki";
 
         baseColor: string;
         baseColorInverted: string;
