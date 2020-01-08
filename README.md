@@ -44,7 +44,8 @@ The themes are intended to be used for `CSS-in-JS` styling along with `react`, `
 
     interface Theme {
         type: "dark" | "bright";
-        name: "generated" | "night" | "dusk" | "dawn" | "light"
+        name: "generated"
+            | "night" | "dusk" | "dawn" | "light"
             | "ponton" | "jaune" | "furor"
             | "plurid"
             | "decode" | "defile" | "deleaf" | "delook"
