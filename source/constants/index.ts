@@ -33,6 +33,7 @@ export const THEME_NAME_DETIME = 'detime';
 export const THEME_NAME_DETUNE = 'detune';
 export const THEME_NAME_DETURN = 'deturn';
 export const THEME_NAME_DEVEIL = 'deveil';
+export const THEME_NAME_DEVERT = 'devert';
 export const THEME_NAME_DEVIEW = 'deview';
 export const THEME_NAME_DEWIKI = 'dewiki';
 
@@ -74,6 +75,7 @@ export const THEME_NAMES = {
     detune: THEME_NAME_DETUNE,
     deturn: THEME_NAME_DETURN,
     deveil: THEME_NAME_DEVEIL,
+    devert: THEME_NAME_DEVERT,
     deview: THEME_NAME_DEVIEW,
     dewiki: THEME_NAME_DEWIKI,
 
