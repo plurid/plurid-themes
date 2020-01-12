@@ -1761,15 +1761,15 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@plurid/plurid-themes@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-themes/-/plurid-themes-0.1.23.tgz#823ce7ac120e392cf62b3a07f4dcafe888fc62c2"
-  integrity sha512-862vnb9FTgXdSTiz5qON3ONwTtSXg9tCFQl11aRDRnOKpjkrZ2LDywm/RvTNiD2WTU7HBnFbL2z2dKEp3gLkaA==
+"@plurid/plurid-themes@^0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-themes/-/plurid-themes-0.1.24.tgz#cdd028f697c3a5e5a4e260d12ab7b6402136bef6"
+  integrity sha512-rJwcfzJhSrh9fbe/AXwDutwdQfUBc7BYpacYYu8GNWNTbo5SgAwHrfIxnd6atc4rveRa1dRa23LsvOnjfNyXyQ==
 
-"@plurid/plurid-ui-react@^0.1.45":
-  version "0.1.45"
-  resolved "https://registry.yarnpkg.com/@plurid/plurid-ui-react/-/plurid-ui-react-0.1.45.tgz#97ae4d874497f5a76eae1d92f79bfefb42225e06"
-  integrity sha512-H0TK7EhlDFSde1R0qBHanoJqvTfoXHOVhhUH9+2v0w5GEsQ0tsA+frtshUlZhdBSiscAP8NR1ighj1Lok8V8Bw==
+"@plurid/plurid-ui-react@^0.1.47":
+  version "0.1.47"
+  resolved "https://registry.yarnpkg.com/@plurid/plurid-ui-react/-/plurid-ui-react-0.1.47.tgz#47c5a95cfb93522af7c8a67e68b7ec8fa655f338"
+  integrity sha512-dSurHvcwfLX0qRhseplziKJ2PVgXku3BIoPDqIwIiE1p7ZxWpYXmPwk4I4QoXwdEQ2H23rKfcyvmOiB4x61xmA==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
@@ -1976,10 +1976,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.14.tgz#1c1d6e3c75dba466e0326948d56e8bd72a1903d2"
   integrity sha512-u/SJDyXwuihpwjXy7hOOghagLEV1KdAST6syfnOk6QZAMzZuWZqXy5aYYZbh8Jdpd4escVFP0MvftHNDb9pruA==
 
-"@types/node@13.1.4":
-  version "13.1.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.1.4.tgz#4cfd90175a200ee9b02bd6b1cd19bc349741607e"
-  integrity sha512-Lue/mlp2egZJoHXZr4LndxDAd7i/7SQYhV0EjWfb/a4/OZ6tuVwMCVPiwkU5nsEipxEf7hmkSU7Em5VQ8P5NGA==
+"@types/node@13.1.6":
+  version "13.1.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.1.6.tgz#076028d0b0400be8105b89a0a55550c86684ffec"
+  integrity sha512-Jg1F+bmxcpENHP23sVKkNuU3uaxPnsBMW0cLjleiikFKomJQbsn0Cqk2yDvQArqzZN6ABfBkZ0To7pQ8sLdWDg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
