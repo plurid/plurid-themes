@@ -3,10 +3,10 @@
     "version": "0.1.1",
     "private": true,
     "dependencies": {
-        "@plurid/plurid-themes": "^0.1.23",
-        "@plurid/plurid-ui-react": "^0.1.45",
+        "@plurid/plurid-themes": "^0.1.24",
+        "@plurid/plurid-ui-react": "^0.1.47",
         "@types/jest": "24.0.25",
-        "@types/node": "13.1.4",
+        "@types/node": "13.1.6",
         "@types/react": "16.9.17",
         "@types/react-dom": "16.9.4",
         "@types/styled-components": "^4.4.2",
