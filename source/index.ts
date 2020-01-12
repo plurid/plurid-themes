@@ -38,6 +38,7 @@ import detime from './themes/product/detime';
 import detune from './themes/product/detune';
 import deturn from './themes/product/deturn';
 import deveil from './themes/product/deveil';
+import devert from './themes/product/devert';
 import deview from './themes/product/deview';
 import dewiki from './themes/product/dewiki';
 
@@ -85,6 +86,7 @@ export {
     detune,
     deturn,
     deveil,
+    devert,
     deview,
     dewiki,
 
@@ -118,6 +120,7 @@ const themes = {
     detune,
     deturn,
     deveil,
+    devert,
     deview,
     dewiki,
 
