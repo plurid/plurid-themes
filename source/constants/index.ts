@@ -30,6 +30,7 @@ export const THEME_NAME_DESELF = 'deself';
 export const THEME_NAME_DESITE = 'desite';
 export const THEME_NAME_DESKY = 'desky';
 export const THEME_NAME_DETIME = 'detime';
+export const THEME_NAME_DETOUR = 'detour';
 export const THEME_NAME_DETUNE = 'detune';
 export const THEME_NAME_DETURN = 'deturn';
 export const THEME_NAME_DEVEIL = 'deveil';
@@ -72,6 +73,7 @@ export const THEME_NAMES = {
     desite: THEME_NAME_DESITE,
     desky: THEME_NAME_DESKY,
     detime: THEME_NAME_DETIME,
+    detour: THEME_NAME_DETOUR,
     detune: THEME_NAME_DETUNE,
     deturn: THEME_NAME_DETURN,
     deveil: THEME_NAME_DEVEIL,

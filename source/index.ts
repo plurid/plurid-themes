@@ -35,6 +35,7 @@ import deself from './themes/product/deself';
 import desite from './themes/product/desite';
 import desky from './themes/product/desky';
 import detime from './themes/product/detime';
+import detour from './themes/product/detour';
 import detune from './themes/product/detune';
 import deturn from './themes/product/deturn';
 import deveil from './themes/product/deveil';
@@ -83,6 +84,7 @@ export {
     desite,
     desky,
     detime,
+    detour,
     detune,
     deturn,
     deveil,
@@ -117,6 +119,7 @@ const themes = {
     desite,
     desky,
     detime,
+    detour,
     detune,
     deturn,
     deveil,
