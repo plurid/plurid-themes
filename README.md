@@ -51,8 +51,8 @@ The themes are intended to be used for `CSS-in-JS` styling along with `react`, `
             | "decode" | "defile" | "deleaf" | "delook"
             | "deloss" | "demail" | "denote" | "depack"
             | "depict" | "deself" | "desite" | "desky"
-            | "detime" | "detune" | "deturn" | "deveil"
-            | "deview" | "dewiki";
+            | "detime" | "detour" | "detune" | "deturn"
+            | "deveil" | "devert" | "deview" | "dewiki";
 
         baseColor: string;
         baseColorInverted: string;
