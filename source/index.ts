@@ -22,28 +22,28 @@ import ponton from './themes/base/ponton';
 import jaune from './themes/base/jaune';
 import furor from './themes/base/furor';
 
-import decode from './themes/product/decode';
-import defile from './themes/product/defile';
-import deleaf from './themes/product/deleaf';
-import delook from './themes/product/delook';
-import deloss from './themes/product/deloss';
-import demail from './themes/product/demail';
-import denote from './themes/product/denote';
-import depack from './themes/product/depack';
-import depict from './themes/product/depict';
-import deself from './themes/product/deself';
-import desite from './themes/product/desite';
-import desky from './themes/product/desky';
-import detime from './themes/product/detime';
-import detour from './themes/product/detour';
-import detune from './themes/product/detune';
-import deturn from './themes/product/deturn';
-import deveil from './themes/product/deveil';
-import devert from './themes/product/devert';
-import deview from './themes/product/deview';
-import dewiki from './themes/product/dewiki';
+import decode from './themes/products/decode';
+import defile from './themes/products/defile';
+import deleaf from './themes/products/deleaf';
+import delook from './themes/products/delook';
+import deloss from './themes/products/deloss';
+import demail from './themes/products/demail';
+import denote from './themes/products/denote';
+import depack from './themes/products/depack';
+import depict from './themes/products/depict';
+import deself from './themes/products/deself';
+import desite from './themes/products/desite';
+import desky from './themes/products/desky';
+import detime from './themes/products/detime';
+import detour from './themes/products/detour';
+import detune from './themes/products/detune';
+import deturn from './themes/products/deturn';
+import deveil from './themes/products/deveil';
+import devert from './themes/products/devert';
+import deview from './themes/products/deview';
+import dewiki from './themes/products/dewiki';
 
-import plurid from './themes/product/plurid';
+import plurid from './themes/products/plurid';
 
 
 
