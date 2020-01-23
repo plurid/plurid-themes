@@ -22,6 +22,7 @@ import ponton from './themes/base/ponton';
 import jaune from './themes/base/jaune';
 import furor from './themes/base/furor';
 
+import deback from './themes/products/deback';
 import decode from './themes/products/decode';
 import defile from './themes/products/defile';
 import deleaf from './themes/products/deleaf';
@@ -71,6 +72,7 @@ export {
     furor,
 
     /** product */
+    deback,
     decode,
     defile,
     deleaf,
@@ -106,6 +108,7 @@ const themes = {
     jaune,
     furor,
 
+    deback,
     decode,
     defile,
     deleaf,
