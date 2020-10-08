@@ -7,6 +7,10 @@ import {
     THEME_TYPE_DARK,
 } from '../../constants';
 
+import {
+    fontFamily,
+} from '../general';
+
 
 
 const depack: Theme = {
@@ -56,6 +60,8 @@ const depack: Theme = {
     boxShadowAntumbra: '0px 3px 18px 0px hsla(170, 73%, 10%, 0.8)',
     boxShadowAntumbraColor: 'hsla(170, 73%, 10%, 0.8)',
     boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(170, 73%, 10%, 0.9)',
+
+    ...fontFamily,
 };
 
 

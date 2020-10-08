@@ -53,6 +53,10 @@ export interface Theme {
     boxShadowAntumbra: string;
     boxShadowAntumbraColor: string;
     boxShadowAntumbraInset: string;
+
+    fontFamilySansSerif: string;
+    fontFamilySerif: string;
+    fontFamilyMonospace: string;
 }
 
 

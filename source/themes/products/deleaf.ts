@@ -7,6 +7,10 @@ import {
     THEME_TYPE_DARK,
 } from '../../constants';
 
+import {
+    fontFamily,
+} from '../general';
+
 
 
 const deleaf: Theme = {
@@ -56,6 +60,8 @@ const deleaf: Theme = {
     boxShadowAntumbra: '0px 3px 18px 0px hsla(141, 83%, 10%, 0.8)',
     boxShadowAntumbraColor: 'hsla(141, 83%, 10%, 0.8)',
     boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(141, 83%, 10%, 0.9)',
+
+    ...fontFamily,
 };
 
 

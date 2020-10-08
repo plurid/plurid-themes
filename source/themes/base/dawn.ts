@@ -7,6 +7,10 @@ import {
     THEME_TYPE_BRIGHT,
 } from '../../constants';
 
+import {
+    fontFamily,
+} from '../general';
+
 
 
 const dawn: Theme = {
@@ -56,6 +60,8 @@ const dawn: Theme = {
     boxShadowAntumbra: '0px 3px 18px 0px hsla(220, 2%, 10%, 0.8)',
     boxShadowAntumbraColor: 'hsla(220, 2%, 10%, 0.8)',
     boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(220, 2%, 10%, 0.9)',
+
+    ...fontFamily,
 };
 
 

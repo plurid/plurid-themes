@@ -7,6 +7,10 @@ import {
     THEME_NAME_DEWIKI,
 } from '../../constants';
 
+import {
+    fontFamily,
+} from '../general';
+
 
 
 const dewiki: Theme = {
@@ -56,6 +60,8 @@ const dewiki: Theme = {
     boxShadowAntumbra: '0px 3px 18px 0px hsla(0, 81%, 10%, 0.8)',
     boxShadowAntumbraColor: 'hsla(0, 81%, 10%, 0.8)',
     boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(0, 81%, 10%, 0.9)',
+
+    ...fontFamily,
 };
 
 
