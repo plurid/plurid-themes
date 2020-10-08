@@ -36,20 +36,20 @@
         "lint": "eslint ./source/index.ts",
         "clean": "rm -rf ./build",
         "start": "yarn clean && rollup -c -w",
-        "build.dev": "yarn clean && rollup -c",
-        "build.prod": "rollup -c --environment BUILD:production",
-        "build": "yarn clean && yarn lint && yarn spec && yarn build.prod",
+        "build.development": "yarn clean && rollup -c",
+        "build.production": "rollup -c --environment BUILD:production",
+        "build": "yarn clean && yarn lint && yarn spec && yarn build.production",
         "prepublishOnly": "yarn build"
     },
     "devDependencies": {
-        "@types/jest": "^24.9.0",
-        "@typescript-eslint/eslint-plugin": "^2.17.0",
-        "@typescript-eslint/parser": "^2.17.0",
-        "eslint": "^6.8.0",
-        "jest": "^25.1.0",
-        "rollup": "^1.29.1",
-        "rollup-plugin-typescript2": "^0.25.3",
-        "ts-jest": "^25.0.0",
-        "typescript": "^3.7.5"
+        "@types/jest": "^26.0.14",
+        "@typescript-eslint/eslint-plugin": "^4.4.0",
+        "@typescript-eslint/parser": "^4.4.0",
+        "eslint": "^7.10.0",
+        "jest": "^26.5.2",
+        "rollup": "^2.29.0",
+        "rollup-plugin-typescript2": "^0.27.3",
+        "ts-jest": "^26.4.1",
+        "typescript": "^4.0.3"
     }
 }
