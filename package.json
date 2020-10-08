@@ -32,12 +32,12 @@
         "npm": ">=5"
     },
     "scripts": {
-        "spec": "jest",
-        "lint": "eslint ./source/index.ts",
+        "spec": "jest -c ./configurations/jest.config.js source",
+        "lint": "eslint -c ./configurations/.eslintrc.js ./source/index.ts",
         "clean": "rm -rf ./build",
-        "start": "yarn clean && rollup -c -w",
-        "build.development": "yarn clean && rollup -c",
-        "build.production": "rollup -c --environment BUILD:production",
+        "start": "yarn clean && rollup -c ./scripts/rollup.config.js -w",
+        "build.development": "yarn clean && rollup -c ./scripts/rollup.config.js",
+        "build.production": "rollup -c ./scripts/rollup.config.js --environment BUILD:production",
         "build": "yarn clean && yarn lint && yarn spec && yarn build.production",
         "prepublishOnly": "yarn build"
     },
