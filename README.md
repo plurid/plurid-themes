@@ -98,6 +98,10 @@ The themes are intended to be used for `CSS-in-JS` styling along with `react`, `
         boxShadowAntumbra: string;
         boxShadowAntumbraColor: string;
         boxShadowAntumbraInset: string;
+
+        fontFamilySansSerif: string;
+        fontFamilySerif: string;
+        fontFamilyMonospace: string;
     }
 
 A color can be decomposed into it's constituents (`hue`, `saturation`, `lightness`, `alpha`) using the `decomposeColor` utility function.
