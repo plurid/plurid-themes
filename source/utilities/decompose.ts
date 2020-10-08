@@ -1,10 +1,13 @@
-import {
-    parseHSL,
-} from '../themes/generate/utilities';
+// #region imports
+    import {
+        parseHSL,
+    } from '../themes/generate/utilities';
+// #endregion imports
 
 
 
-interface DecomposedColor {
+// #region module
+export interface DecomposedColor {
     hue: number;
     saturation: number;
     lightness: number;
@@ -43,3 +46,4 @@ export const decomposeColor = (
         alpha,
     };
 }
+// #endregion module

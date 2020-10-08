@@ -1,18 +1,21 @@
-import {
-    Theme,
-} from '../../interfaces';
+// #region imports
+    import {
+        Theme,
+    } from '../../interfaces';
 
-import {
-    THEME_TYPE_DARK,
-    THEME_NAME_DEWIKI,
-} from '../../constants';
+    import {
+        THEME_TYPE_DARK,
+        THEME_NAME_DEWIKI,
+    } from '../../constants';
 
-import {
-    fontFamily,
-} from '../general';
+    import {
+        fontFamily,
+    } from '../general';
+// #endregion imports
 
 
 
+// #region module
 const dewiki: Theme = {
     type: THEME_TYPE_DARK,
     name: THEME_NAME_DEWIKI,
@@ -63,6 +66,10 @@ const dewiki: Theme = {
 
     ...fontFamily,
 };
+// #endregion module
 
 
+
+// #region exports
 export default dewiki;
+// #endregion exports

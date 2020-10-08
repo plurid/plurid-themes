@@ -1,10 +1,13 @@
-import {
-    HSLColorClass,
-    HSLColorValues,
-} from '../../interfaces';
+// #region imports
+    import {
+        HSLColorClass,
+        HSLColorValues,
+    } from '../../interfaces';
+// #endregion imports
 
 
 
+// #region module
 class HSLColor implements HSLColorClass {
     private _saturation: number;
     private _hue: number;
@@ -42,6 +45,10 @@ class HSLColor implements HSLColorClass {
         return `hsl(${this._saturation}, ${this._hue}%, ${this._lightness}%)`;
     }
 }
+// #endregion module
 
 
+
+// #region exports
 export default HSLColor;
+// #endregion exports

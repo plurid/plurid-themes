@@ -1,18 +1,21 @@
-import {
-    Theme,
-} from '../../interfaces';
+// #region imports
+    import {
+        Theme,
+    } from '../../interfaces';
 
-import {
-    THEME_NAME_DECODE,
-    THEME_TYPE_DARK,
-} from '../../constants';
+    import {
+        THEME_NAME_DECODE,
+        THEME_TYPE_DARK,
+    } from '../../constants';
 
-import {
-    fontFamily,
-} from '../general';
+    import {
+        fontFamily,
+    } from '../general';
+// #endregion imports
 
 
 
+// #region module
 const decode: Theme = {
     type: THEME_TYPE_DARK,
     name: THEME_NAME_DECODE,
@@ -61,8 +64,13 @@ const decode: Theme = {
     boxShadowAntumbraColor: 'hsla(206, 85%, 10%, 0.8)',
     boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(206, 85%, 10%, 0.9)',
 
+
     ...fontFamily,
 };
+// #endregion module
 
 
+
+// #region exports
 export default decode;
+// #endregion exports

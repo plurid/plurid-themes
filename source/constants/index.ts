@@ -1,3 +1,4 @@
+// #region module
 export const THEME_TYPE_DARK = 'dark';
 export const THEME_TYPE_BRIGHT = 'bright';
 
@@ -29,7 +30,6 @@ export const THEME_NAME_DEPACK = 'depack';
 export const THEME_NAME_DEPICT = 'depict';
 export const THEME_NAME_DESELF = 'deself';
 export const THEME_NAME_DESITE = 'desite';
-export const THEME_NAME_DESKY = 'desky';
 export const THEME_NAME_DETIME = 'detime';
 export const THEME_NAME_DETOUR = 'detour';
 export const THEME_NAME_DETUNE = 'detune';
@@ -73,7 +73,6 @@ export const THEME_NAMES = {
     depict: THEME_NAME_DEPICT,
     deself: THEME_NAME_DESELF,
     desite: THEME_NAME_DESITE,
-    desky: THEME_NAME_DESKY,
     detime: THEME_NAME_DETIME,
     detour: THEME_NAME_DETOUR,
     detune: THEME_NAME_DETUNE,
@@ -85,3 +84,4 @@ export const THEME_NAMES = {
 
     plurid: THEME_NAME_PLURID,
 };
+// #endregion module

@@ -1,11 +1,14 @@
-import HSLColor from './hslcolor';
+// #region imports
+    import HSLColor from './hslcolor';
 
-import {
-    HSLColorValues,
-} from '../../interfaces';
+    import {
+        HSLColorValues,
+    } from '../../interfaces';
+// #endregion imports
 
 
 
+// #region module
 const hueRE = /\((\d{1,3})\s?,/;
 const saturationRE = /,\s?(\d{1,3})%\s?,/;
 const lightnessRE = /,\s?(\d{1,3})%\)/;
@@ -40,3 +43,4 @@ export const invertColor = (color: HSLColor): HSLColor => {
 
     return hslColor;
 }
+// #endregion module

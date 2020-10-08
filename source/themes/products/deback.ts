@@ -1,18 +1,21 @@
-import {
-    Theme,
-} from '../../interfaces';
+// #region imports
+    import {
+        Theme,
+    } from '../../interfaces';
 
-import {
-    THEME_NAME_DEBACK,
-    THEME_TYPE_DARK,
-} from '../../constants';
+    import {
+        THEME_NAME_DEBACK,
+        THEME_TYPE_DARK,
+    } from '../../constants';
 
-import {
-    fontFamily,
-} from '../general';
+    import {
+        fontFamily,
+    } from '../general';
+// #endregion imports
 
 
 
+// #region module
 const deback: Theme = {
     type: THEME_TYPE_DARK,
     name: THEME_NAME_DEBACK,
@@ -61,8 +64,13 @@ const deback: Theme = {
     boxShadowAntumbraColor: 'hsla(211, 100%, 10%, 0.8)',
     boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(211, 100%, 10%, 0.9)',
 
+
     ...fontFamily,
 };
+// #endregion module
 
 
+
+// #region exports
 export default deback;
+// #endregion exports

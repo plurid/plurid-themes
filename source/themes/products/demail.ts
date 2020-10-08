@@ -1,18 +1,21 @@
-import {
-    Theme,
-} from '../../interfaces';
+// #region imports
+    import {
+        Theme,
+    } from '../../interfaces';
 
-import {
-    THEME_NAME_DEMAIL,
-    THEME_TYPE_DARK,
-} from '../../constants';
+    import {
+        THEME_NAME_DEMAIL,
+        THEME_TYPE_DARK,
+    } from '../../constants';
 
-import {
-    fontFamily,
-} from '../general';
+    import {
+        fontFamily,
+    } from '../general';
+// #endregion imports
 
 
 
+// #region module
 const demail: Theme = {
     type: THEME_TYPE_DARK,
     name: THEME_NAME_DEMAIL,
@@ -63,6 +66,10 @@ const demail: Theme = {
 
     ...fontFamily,
 };
+// #endregion module
 
 
+
+// #region exports
 export default demail;
+// #endregion exports

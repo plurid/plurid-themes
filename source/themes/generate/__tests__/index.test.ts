@@ -1,4 +1,4 @@
-import generateTheme from '../';
+import generateTheme from '..';
 
 
 

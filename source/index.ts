@@ -1,3 +1,4 @@
+// #region imports
 import {
     THEME_NAMES,
     THEME_TYPES,
@@ -34,7 +35,6 @@ import depack from './themes/products/depack';
 import depict from './themes/products/depict';
 import deself from './themes/products/deself';
 import desite from './themes/products/desite';
-import desky from './themes/products/desky';
 import detime from './themes/products/detime';
 import detour from './themes/products/detour';
 import detune from './themes/products/detune';
@@ -45,9 +45,11 @@ import deview from './themes/products/deview';
 import dewiki from './themes/products/dewiki';
 
 import plurid from './themes/products/plurid';
+// #endregion imports
 
 
 
+// #region exports
 export {
     /** interfaces */
     Theme,
@@ -84,7 +86,6 @@ export {
     depict,
     deself,
     desite,
-    desky,
     detime,
     detour,
     detune,
@@ -120,7 +121,6 @@ const themes = {
     depict,
     deself,
     desite,
-    desky,
     detime,
     detour,
     detune,
@@ -134,3 +134,4 @@ const themes = {
 };
 
 export default themes;
+// #endregion exports

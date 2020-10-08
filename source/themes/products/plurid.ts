@@ -1,18 +1,21 @@
-import {
-    Theme,
-} from '../../interfaces';
+// #region imports
+    import {
+        Theme,
+    } from '../../interfaces';
 
-import {
-    THEME_NAME_PLURID,
-    THEME_TYPE_BRIGHT,
-} from '../../constants';
+    import {
+        THEME_NAME_PLURID,
+        THEME_TYPE_BRIGHT,
+    } from '../../constants';
 
-import {
-    fontFamily,
-} from '../general';
+    import {
+        fontFamily,
+    } from '../general';
+// #endregion imports
 
 
 
+// #region module
 const plurid: Theme = {
     type: THEME_TYPE_BRIGHT,
     name: THEME_NAME_PLURID,
@@ -63,6 +66,10 @@ const plurid: Theme = {
 
     ...fontFamily,
 };
+// #endregion module
 
 
+
+// #region exports
 export default plurid;
+// #endregion exports

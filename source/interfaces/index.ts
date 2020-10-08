@@ -1,10 +1,13 @@
-import {
-    THEME_NAMES,
-    THEME_TYPES,
-} from '../constants';
+// #region imports
+    import {
+        THEME_NAMES,
+        THEME_TYPES,
+    } from '../constants';
+// #endregion imports
 
 
 
+// #region module
 export interface Theme {
     type: keyof typeof THEME_TYPES;
     name: keyof typeof THEME_NAMES;
@@ -75,3 +78,4 @@ export interface HSLColorValues {
     lightness: number;
     alpha?: number;
 }
+// #endregion module

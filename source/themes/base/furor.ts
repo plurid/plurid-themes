@@ -1,18 +1,21 @@
-import {
-    Theme,
-} from '../../interfaces';
+// #region imports
+    import {
+        Theme,
+    } from '../../interfaces';
 
-import {
-    THEME_NAME_FUROR,
-    THEME_TYPE_BRIGHT,
-} from '../../constants';
+    import {
+        THEME_NAME_FUROR,
+        THEME_TYPE_BRIGHT,
+    } from '../../constants';
 
-import {
-    fontFamily,
-} from '../general';
+    import {
+        fontFamily,
+    } from '../general';
+// #endregion imports
 
 
 
+// #region module
 const furor: Theme = {
     type: THEME_TYPE_BRIGHT,
     name: THEME_NAME_FUROR,
@@ -61,8 +64,13 @@ const furor: Theme = {
     boxShadowAntumbraColor: 'hsla(360, 90%, 10%, 0.8)',
     boxShadowAntumbraInset: 'inset 0px -3px 8px 0px hsla(360, 90%, 10%, 0.9)',
 
+
     ...fontFamily,
 };
+// #endregion module
 
 
+
+// #region exports
 export default furor;
+// #endregion exports

@@ -1,19 +1,26 @@
-import {
-    Theme,
-} from '../../interfaces';
+// #region imports
+    import {
+        Theme,
+    } from '../../interfaces';
 
-import {
-    THEME_NAME_GENERATED,
-    THEME_TYPES,
-} from '../../constants';
+    import {
+        THEME_NAME_GENERATED,
+        THEME_TYPES,
+    } from '../../constants';
 
-import {
-    parseHSL,
-    invertColor,
-} from './utilities';
+    import {
+        fontFamily,
+    } from '../general';
+
+    import {
+        parseHSL,
+        invertColor,
+    } from './utilities';
+// #endregion imports
 
 
 
+// #region module
 /**
  * Based on the type and the baseColor generates a Theme.
  *
@@ -127,10 +134,16 @@ const generateTheme = (
         boxShadowAntumbra,
         boxShadowAntumbraColor,
         boxShadowAntumbraInset,
+
+        ...fontFamily,
     };
 
     return theme;
 }
+// #endregion module
 
 
+
+// #region exports
 export default generateTheme;
+// #endregion exports
