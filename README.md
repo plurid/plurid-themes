@@ -7,11 +7,20 @@
         <img src="https://img.shields.io/npm/v/@plurid/plurid-themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
     </a>
     <a target="_blank" href="https://github.com/plurid/plurid-themes/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg?colorB=1380C3&style=for-the-badge" alt="License: MIT">
+        <img src="https://img.shields.io/badge/license-DEL-blue.svg?colorB=1380C3&style=for-the-badge" alt="License: DEL">
     </a>
 </p>
 
 
+
++ [About](#about)
++ [Demo](#demo)
++ [Usage](#usage)
++ [Codeophon](#codeophon)
+
+
+
+## About
 
 There are four shade-oriented base themes, three color-oriented base themes, and multiple `plurid`-oriented product themes.
 
@@ -105,3 +114,10 @@ The themes are intended to be used for `CSS-in-JS` styling along with `react`, `
     }
 
 A color can be decomposed into it's constituents (`hue`, `saturation`, `lightness`, `alpha`) using the `decomposeColor` utility function.
+
+
+
+## [Codeophon](https://github.com/ly3xqhl8g9/codeophon)
+
++ licensing: [delicense](https://github.com/ly3xqhl8g9/delicense)
++ versioning: [αver](https://github.com/ly3xqhl8g9/alpha-versioning)
