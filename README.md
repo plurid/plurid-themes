@@ -13,6 +13,12 @@
 
 
 
+<h1 align="center">
+    Themes for Plurid Applications
+</h1>
+
+
+
 + [About](#about)
 + [Demo](#demo)
 + [Usage](#usage)
