@@ -1,14 +1,14 @@
 {
     "name": "@plurid/plurid-themes",
     "version": "0.0.0-0",
-    "description": "Themes for Plurid Apps",
+    "description": "Themes for Plurid Applications",
     "keywords": [
         "plurid",
-        "themes",
-        "components"
+        "applications",
+        "themes"
     ],
     "author": "ly3xqhl8g9 <ly3xqhl8g9@plurid.com> (https://plurid.com)",
-    "license": "MIT",
+    "license": "SEE LICENSE IN LICENSE",
     "repository": {
         "type": "git",
         "url": "https://github.com/plurid/plurid-themes"
