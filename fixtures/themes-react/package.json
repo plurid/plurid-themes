@@ -1,10 +1,11 @@
 {
     "name": "themes-react",
-    "version": "0.1.1",
+    "version": "0.0.0-0",
     "private": true,
     "dependencies": {
-        "@plurid/plurid-themes": "^0.1.26",
-        "@plurid/plurid-ui-react": "^0.1.71",
+        "@plurid/plurid-themes": "^0.0.0-0",
+        "@plurid/plurid-ui-components-react": "^0.0.0-0",
+        "@plurid/plurid-ui-state-react": "^0.0.0-0",
         "@types/jest": "24.9.0",
         "@types/node": "13.1.8",
         "@types/react": "16.9.19",

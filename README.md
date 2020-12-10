@@ -1,8 +1,7 @@
-<h1 align="center">
-    plurid' themes
-</h1>
-
 <p align="center">
+    <img src="https://raw.githubusercontent.com/plurid/plurid/master/about/identity/plurid-p-logo.png" height="250px">
+    <br />
+    <br />
     <a target="_blank" href="https://www.npmjs.com/package/@plurid/plurid-themes">
         <img src="https://img.shields.io/npm/v/@plurid/plurid-themes.svg?logo=npm&colorB=1380C3&style=for-the-badge" alt="Version">
     </a>
@@ -12,12 +11,22 @@
 </p>
 
 
-
 <h1 align="center">
-    Themes for Plurid Applications
+    plurid' themes
 </h1>
 
 
+<h3 align="center">
+    Themes for Plurid Applications
+</h3>
+
+
+
+<br />
+
+
+
+### Contents
 
 + [About](#about)
 + [Demo](#demo)
@@ -59,67 +68,69 @@ A theme can be further more classified based on the theme `type` (`dark` or `bri
 
 The themes are intended to be used for `CSS-in-JS` styling along with `react`, `styled-components`, or other packages.
 
-    interface Theme {
-        type: "dark" | "bright";
-        name: "generated"
-            | "night" | "dusk" | "dawn" | "light"
-            | "ponton" | "jaune" | "furor"
-            | "plurid"
-            | "decode" | "defile" | "deleaf" | "delook"
-            | "deloss" | "demail" | "denote" | "depack"
-            | "depict" | "deself" | "desite" | "desky"
-            | "detime" | "detour" | "detune" | "deturn"
-            | "deveil" | "devert" | "deview" | "dewiki";
+``` typescript
+interface Theme {
+    type: "dark" | "bright";
+    name: "generated"
+        | "night" | "dusk" | "dawn" | "light"
+        | "ponton" | "jaune" | "furor"
+        | "plurid"
+        | "deback" | "decode" | "defile" | "deleaf"
+        | "delook" | "deloss" | "demail" | "denote"
+        | "depack" | "depict" | "deself" | "desite"
+        | "detime" | "detour" | "detune" | "deturn"
+        | "deveil" | "devert" | "deview" | "dewiki";
 
-        baseColor: string;
-        baseColorInverted: string;
+    baseColor: string;
+    baseColorInverted: string;
 
-        backgroundColorDark: string;
-        backgroundColorBright: string;
+    backgroundColorDark: string;
+    backgroundColorBright: string;
 
-        backgroundColorPrimary: string;
-        backgroundColorPrimaryAlpha: string;
-        backgroundColorPrimaryInverted: string;
+    backgroundColorPrimary: string;
+    backgroundColorPrimaryAlpha: string;
+    backgroundColorPrimaryInverted: string;
 
-        backgroundColorSecondary: string;
-        backgroundColorSecondaryAlpha: string;
-        backgroundColorSecondaryInverted: string;
+    backgroundColorSecondary: string;
+    backgroundColorSecondaryAlpha: string;
+    backgroundColorSecondaryInverted: string;
 
-        backgroundColorTertiary: string;
-        backgroundColorTertiaryAlpha: string;
-        backgroundColorTertiaryInverted: string;
+    backgroundColorTertiary: string;
+    backgroundColorTertiaryAlpha: string;
+    backgroundColorTertiaryInverted: string;
 
-        backgroundColorQuaternary: string;
-        backgroundColorQuaternaryAlpha: string;
-        backgroundColorQuaternaryInverted: string;
-
-
-        colorPrimary: string;
-        colorPrimaryInverted: string;
-
-        colorSecondary: string;
-        colorSecondaryInverted: string;
-
-        colorTertiary: string;
-        colorTertiaryInverted: string;
+    backgroundColorQuaternary: string;
+    backgroundColorQuaternaryAlpha: string;
+    backgroundColorQuaternaryInverted: string;
 
 
-        boxShadowUmbra: string;
-        boxShadowUmbraColor: string;
-        boxShadowUmbraInset: string;
+    colorPrimary: string;
+    colorPrimaryInverted: string;
 
-        boxShadowPenumbra: string;
-        boxShadowPenumbraColor: string;
-        boxShadowPenumbraInset: string;
+    colorSecondary: string;
+    colorSecondaryInverted: string;
 
-        boxShadowAntumbra: string;
-        boxShadowAntumbraColor: string;
-        boxShadowAntumbraInset: string;
+    colorTertiary: string;
+    colorTertiaryInverted: string;
 
-        fontFamilySansSerif: string;
-        fontFamilySerif: string;
-        fontFamilyMonospace: string;
-    }
+
+    boxShadowUmbra: string;
+    boxShadowUmbraColor: string;
+    boxShadowUmbraInset: string;
+
+    boxShadowPenumbra: string;
+    boxShadowPenumbraColor: string;
+    boxShadowPenumbraInset: string;
+
+    boxShadowAntumbra: string;
+    boxShadowAntumbraColor: string;
+    boxShadowAntumbraInset: string;
+
+    fontFamilySansSerif: string;
+    fontFamilySerif: string;
+    fontFamilyMonospace: string;
+}
+```
 
 A color can be decomposed into it's constituents (`hue`, `saturation`, `lightness`, `alpha`) using the `decomposeColor` utility function.
 
