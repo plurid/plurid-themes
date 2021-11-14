@@ -1,16 +1,21 @@
 // #region imports
+    // #region external
     import {
         THEME_NAMES,
         THEME_TYPES,
     } from '../constants';
+    // #endregion external
 // #endregion imports
 
 
 
 // #region module
+export type ThemeType = keyof typeof THEME_TYPES;
+export type ThemeName = keyof typeof THEME_NAMES;
+
 export interface Theme {
-    type: keyof typeof THEME_TYPES;
-    name: keyof typeof THEME_NAMES;
+    type: ThemeType;
+    name: ThemeName;
 
     baseColor: string;
     baseColorInverted: string;

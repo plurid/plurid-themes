@@ -6,6 +6,8 @@ import {
 
 import {
     Theme,
+    ThemeType,
+    ThemeName,
 } from './interfaces';
 
 import {
@@ -53,6 +55,8 @@ import plurid from './themes/products/plurid';
 export {
     /** interfaces */
     Theme,
+    ThemeType,
+    ThemeName,
 
     /** constants */
     THEME_NAMES,
