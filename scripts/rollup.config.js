@@ -1,10 +1,20 @@
-import typescript from 'rollup-plugin-typescript2';
+// #region imports
+    // #region libraries
+    import typescript from 'rollup-plugin-typescript2';
+    import {
+        terser,
+    } from 'rollup-plugin-terser';
+    // #endregion libraries
 
-import pkg from '../package.json';
+    // #region external
+    import pkg from '../package.json';
+    // #endregion external
+// #endregion imports
 
 
 
-export default {
+// #region module
+const build = {
     input: 'source/index.ts',
     output: [
         {
@@ -26,5 +36,20 @@ export default {
             rollupCommonJSResolveHack: true,
             clean: true
         }),
+        terser({
+            mangle: false,
+            compress: false,
+            format: {
+                beautify: true,
+                comments: false,
+            },
+        }),
     ],
-}
+};
+// #endregion module
+
+
+
+// #region exports
+export default build;
+// #endregion exports
