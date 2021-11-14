@@ -30,17 +30,17 @@ const deview: Theme = {
     backgroundColorPrimaryAlpha: 'hsla(91, 81%, 24%, 0.4)',
     backgroundColorPrimaryInverted: 'hsl(91, 81%, 76%)',
 
-    backgroundColorSecondary: 'hsl(91, 81%, 39%)',
-    backgroundColorSecondaryAlpha: 'hsla(91, 81%, 39%, 0.4)',
-    backgroundColorSecondaryInverted: 'hsl(91, 81%, 61%)',
+    backgroundColorSecondary: 'hsl(91, 81%, 29%)',
+    backgroundColorSecondaryAlpha: 'hsla(91, 81%, 29%, 0.4)',
+    backgroundColorSecondaryInverted: 'hsl(91, 81%, 71%)',
 
-    backgroundColorTertiary: 'hsl(91, 81%, 29%)',
-    backgroundColorTertiaryAlpha: 'hsla(91, 81%, 29%, 0.4)',
-    backgroundColorTertiaryInverted: 'hsl(91, 81%, 71%)',
+    backgroundColorTertiary: 'hsl(91, 81%, 39%)',
+    backgroundColorTertiaryAlpha: 'hsla(91, 81%, 39%, 0.4)',
+    backgroundColorTertiaryInverted: 'hsl(91, 81%, 61%)',
 
-    backgroundColorQuaternary: 'hsl(91, 81%, 19%)',
-    backgroundColorQuaternaryAlpha: 'hsla(91, 81%, 19%, 0.4)',
-    backgroundColorQuaternaryInverted: 'hsl(91, 81%, 81%)',
+    backgroundColorQuaternary: 'hsl(91, 81%, 47%)',
+    backgroundColorQuaternaryAlpha: 'hsla(91, 81%, 47%, 0.4)',
+    backgroundColorQuaternaryInverted: 'hsl(91, 81%, 53%)',
 
     colorPrimary: 'hsl(91, 7%, 97%)',
     colorPrimaryInverted: 'hsl(91, 7%, 3%)',
