@@ -1,8 +1,8 @@
 // #region module
 const fontFamily = {
-    fontFamilySansSerif: `Ubuntu, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif`,
+    fontFamilySansSerif: `Ubuntu, system-ui, Liberation, 'Open Sans', 'Helvetica Neue', sans-serif`,
     fontFamilySerif: `Lora, Georgia, Times, serif`,
-    fontFamilyMonospace: `'Source Code Pro', monospace`,
+    fontFamilyMonospace: `'Source Code Pro', Consolas, monospace`,
 };
 // #endregion module
 
