@@ -4,7 +4,7 @@
     } from '../../interfaces';
 
     import {
-        THEME_NAME_DELEAF,
+        THEME_NAME_DEFORM,
         THEME_TYPE_DARK,
     } from '../../constants';
 
@@ -16,9 +16,9 @@
 
 
 // #region module
-const deleaf: Theme = {
+const deform: Theme = {
     type: THEME_TYPE_DARK,
-    name: THEME_NAME_DELEAF,
+    name: THEME_NAME_DEFORM,
 
     baseColor: 'hsl(141, 83%, 24%)',
     baseColorInverted: 'hsl(141, 83%, 76%)',
@@ -72,5 +72,5 @@ const deleaf: Theme = {
 
 
 // #region exports
-export default deleaf;
+export default deform;
 // #endregion exports

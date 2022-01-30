@@ -21,10 +21,11 @@ export const THEME_NAME_FUROR = 'furor';
 export const THEME_NAME_DEBACK = 'deback';
 export const THEME_NAME_DECODE = 'decode';
 export const THEME_NAME_DEFILE = 'defile';
-export const THEME_NAME_DELEAF = 'deleaf';
+export const THEME_NAME_DEFORM = 'deform';
 export const THEME_NAME_DELOOK = 'delook';
 export const THEME_NAME_DELOSS = 'deloss';
 export const THEME_NAME_DEMAIL = 'demail';
+export const THEME_NAME_DEMAND = 'demand';
 export const THEME_NAME_DENOTE = 'denote';
 export const THEME_NAME_DEPACK = 'depack';
 export const THEME_NAME_DEPICT = 'depict';
@@ -64,10 +65,11 @@ export const THEME_NAMES = {
     deback: THEME_NAME_DEBACK,
     decode: THEME_NAME_DECODE,
     defile: THEME_NAME_DEFILE,
-    deleaf: THEME_NAME_DELEAF,
+    deform: THEME_NAME_DEFORM,
     delook: THEME_NAME_DELOOK,
     deloss: THEME_NAME_DELOSS,
     demail: THEME_NAME_DEMAIL,
+    demand: THEME_NAME_DEMAND,
     denote: THEME_NAME_DENOTE,
     depack: THEME_NAME_DEPACK,
     depict: THEME_NAME_DEPICT,
